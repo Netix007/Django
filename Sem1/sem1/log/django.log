@@ -1,0 +1,8 @@
+INFO 2023-07-27 02:05:45,093 autoreload 17476 16524 Watching for file changes with StatReloader
+INFO 2023-07-27 02:06:03,926 views 17476 18620 random_num requested; answer: 60
+INFO 2023-07-27 02:06:03,929 basehttp 17476 18620 "GET /games/randomnum/ HTTP/1.1" 200 17
+INFO 2023-07-27 02:06:20,026 views 17476 18620 coinplay requested; coin_side: reverse
+INFO 2023-07-27 02:06:20,027 basehttp 17476 18620 "GET /games/coinplay/ HTTP/1.1" 200 18
+INFO 2023-07-27 02:06:27,042 views 17476 18620 diceplay requested; cube_side: 2
+INFO 2023-07-27 02:06:27,044 basehttp 17476 18620 "GET /games/diceplay/ HTTP/1.1" 200 12
+INFO 2023-07-27 02:06:35,624 basehttp 17476 18620 "GET / HTTP/1.1" 200 11
