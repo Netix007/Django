@@ -6,3 +6,36 @@ INFO 2023-07-27 02:06:20,027 basehttp 17476 18620 "GET /games/coinplay/ HTTP/1.1
 INFO 2023-07-27 02:06:27,042 views 17476 18620 diceplay requested; cube_side: 2
 INFO 2023-07-27 02:06:27,044 basehttp 17476 18620 "GET /games/diceplay/ HTTP/1.1" 200 12
 INFO 2023-07-27 02:06:35,624 basehttp 17476 18620 "GET / HTTP/1.1" 200 11
+INFO 2023-07-27 03:12:36,691 autoreload 9952 23928 Watching for file changes with StatReloader
+INFO 2023-07-27 03:12:42,246 basehttp 9952 5196 "GET / HTTP/1.1" 200 11
+INFO 2023-07-27 03:12:56,463 basehttp 9952 5196 "GET /homework1/mainpage HTTP/1.1" 301 0
+INFO 2023-07-27 03:12:56,471 basehttp 9952 5944 "GET /homework1/mainpage/ HTTP/1.1" 200 164
+INFO 2023-07-27 03:15:00,159 basehttp 9952 5944 "GET /homework1/mainpage/ HTTP/1.1" 200 164
+INFO 2023-07-27 03:15:01,344 basehttp 9952 5944 "GET /homework1/mainpage/ HTTP/1.1" 200 164
+INFO 2023-07-27 03:15:59,634 autoreload 9952 23928 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\main_page\views.py changed, reloading.
+INFO 2023-07-27 03:16:01,031 autoreload 13120 4448 Watching for file changes with StatReloader
+INFO 2023-07-27 03:16:01,260 basehttp 13120 21152 "GET /homework1/mainpage/ HTTP/1.1" 200 164
+INFO 2023-07-27 03:16:02,030 basehttp 13120 21152 "GET /homework1/mainpage/ HTTP/1.1" 200 164
+INFO 2023-07-27 03:16:03,034 basehttp 13120 21152 "GET /homework1/mainpage/ HTTP/1.1" 200 164
+INFO 2023-07-27 03:16:39,907 autoreload 17944 16464 Watching for file changes with StatReloader
+INFO 2023-07-27 03:16:43,420 basehttp 17944 22632 "GET /homework1/mainpage/ HTTP/1.1" 200 164
+INFO 2023-07-27 03:16:48,679 basehttp 17944 22632 "GET / HTTP/1.1" 200 11
+INFO 2023-07-27 03:18:26,874 autoreload 17944 16464 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem1\settings.py changed, reloading.
+INFO 2023-07-27 03:18:27,932 autoreload 16936 17392 Watching for file changes with StatReloader
+INFO 2023-07-27 03:18:33,332 basehttp 16936 9452 "GET / HTTP/1.1" 200 11
+INFO 2023-07-27 03:18:42,615 views 16936 9452 Main page accessed.
+INFO 2023-07-27 03:18:42,618 basehttp 16936 9452 "GET /homework1/mainpage/ HTTP/1.1" 200 164
+INFO 2023-07-27 03:47:52,056 autoreload 2560 23452 Watching for file changes with StatReloader
+INFO 2023-07-27 03:49:09,418 autoreload 24336 10572 Watching for file changes with StatReloader
+INFO 2023-07-27 03:49:52,716 autoreload 22812 1072 Watching for file changes with StatReloader
+INFO 2023-07-27 03:50:38,295 autoreload 13524 2020 Watching for file changes with StatReloader
+INFO 2023-07-27 03:52:39,751 autoreload 13524 2020 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\about_page\urls.py changed, reloading.
+INFO 2023-07-27 03:52:40,354 autoreload 24560 16956 Watching for file changes with StatReloader
+WARNING 2023-07-27 03:52:53,396 log 24560 19816 Not Found: /mainpage/
+WARNING 2023-07-27 03:52:53,397 basehttp 24560 19816 "GET /mainpage/ HTTP/1.1" 404 2580
+INFO 2023-07-27 03:53:03,277 views 24560 19816 About page accessed.
+INFO 2023-07-27 03:53:03,278 basehttp 24560 19816 "GET /about/ HTTP/1.1" 200 181
+INFO 2023-07-27 03:53:09,035 views 24560 19816 About page accessed.
+INFO 2023-07-27 03:53:09,036 basehttp 24560 19816 "GET /about/ HTTP/1.1" 200 181
+INFO 2023-07-27 03:53:14,376 views 24560 19816 Main page accessed.
+INFO 2023-07-27 03:53:14,376 basehttp 24560 19816 "GET /main/ HTTP/1.1" 200 164

@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app001',
     'app002',
+    'main_page',
+    'about_page',
 ]
 
 MIDDLEWARE = [
@@ -161,6 +163,16 @@ LOGGING = {
             'propagate': True,
         },
         'app002': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'main_page': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'about_page': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
