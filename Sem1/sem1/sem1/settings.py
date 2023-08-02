@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'app002',
     'main_page',
     'about_page',
+    'sem2_task1',
 ]
 
 MIDDLEWARE = [
@@ -173,6 +174,11 @@ LOGGING = {
             'propagate': True,
         },
         'about_page': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'sem2_task1': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
