@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="false" />
+    <value-preview-text-wrapping value="true" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -11,46 +11,20 @@
     <show-object-properties value="true" />
     <loaded-nodes />
   </component>
-<<<<<<< HEAD
-=======
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="a9bcf653-82e8-4b32-a40e-1eff44e9ea87">
+    <connection id="4ef59e1b-587f-4a11-8b40-7803a1f56ae3">
       <console name="Connection" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
->>>>>>> aa9d029bc4b250c08c294bb3e8913bc17b3d5ab6
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
-    <last-used-providers>
-      <object-type object-type="TABLE" editor-provider="DATA" />
-    </last-used-providers>
+    <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="a9bcf653-82e8-4b32-a40e-1eff44e9ea87" object-ref="schemas/sem/tables/sem2_task1_author" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="a9bcf653-82e8-4b32-a40e-1eff44e9ea87" dataset="sem.sem2_task1_author" active-filter-id="EMPTY_FILTER">
-      <filter id="4904cb07-574e-455a-a029-90f80f331279" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
-        <condition column="id" operator="=" value="" active="true" />
-      </filter>
-    </filter-actions>
-    <filter-actions connection-id="a9bcf653-82e8-4b32-a40e-1eff44e9ea87" dataset="sem.sem2_task1_article" active-filter-id="EMPTY_FILTER">
-      <filter id="f8a1ac1d-6a01-43e0-8b71-658285985369" name="*" temporary="false" custom-name="false" type="basic" join-type="AND">
-        <condition column="id" operator="=" value="*" active="true" />
-      </filter>
-    </filter-actions>
-  </component>
-  <component name="DBNavigator.Project.ObjectQuickFilterManager">
-    <last-used-operator value="EQUAL" />
-    <filters />
-  </component>
-  <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="a9bcf653-82e8-4b32-a40e-1eff44e9ea87" dataset="sem.homework2_client" active-filter-id="EMPTY_FILTER">
-      <filter id="d55259ac-e0cb-48c0-9e18-990da52922be" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND" />
-    </filter-actions>
-    <filter-actions connection-id="a9bcf653-82e8-4b32-a40e-1eff44e9ea87" dataset="sem.auth_user" active-filter-id="" />
-    <filter-actions connection-id="a9bcf653-82e8-4b32-a40e-1eff44e9ea87" dataset="sem.homework2_item" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="4ef59e1b-587f-4a11-8b40-7803a1f56ae3" dataset="sem3.sem2_task1_article" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="4ef59e1b-587f-4a11-8b40-7803a1f56ae3" dataset="sem3.sem2_task1_author" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -58,7 +32,7 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="a9bcf653-82e8-4b32-a40e-1eff44e9ea87" active="true" signed="true">
+      <connection id="4ef59e1b-587f-4a11-8b40-7803a1f56ae3" active="true" signed="true">
         <database>
           <name value="Connection" />
           <description value="" />
@@ -75,7 +49,7 @@
           <tns-folder value="" />
           <tns-profile value="" />
           <files>
-            <file path="C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\db.sqlite3" schema="sem" />
+            <file path="C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\db.sqlite3" schema="sem3" />
           </files>
           <type value="NONE" />
           <user value="" />
@@ -105,7 +79,7 @@
           <session-management value="true" />
           <ddl-file-binding value="true" />
           <database-logging value="true" />
-          <connect-automatically value="true" />
+          <connect-automatically value="false" />
           <restore-workspace value="true" />
           <restore-workspace-deep value="false" />
           <environment-type value="default" />
@@ -541,8 +515,5 @@
         </visibility-settings>
       </environment>
     </general-settings>
-  </component>
-  <component name="DBNavigator.Project.StatementExecutionManager">
-    <execution-variables />
   </component>
 </project>
