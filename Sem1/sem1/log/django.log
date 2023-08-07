@@ -39,3 +39,1317 @@ INFO 2023-07-27 03:53:09,035 views 24560 19816 About page accessed.
 INFO 2023-07-27 03:53:09,036 basehttp 24560 19816 "GET /about/ HTTP/1.1" 200 181
 INFO 2023-07-27 03:53:14,376 views 24560 19816 Main page accessed.
 INFO 2023-07-27 03:53:14,376 basehttp 24560 19816 "GET /main/ HTTP/1.1" 200 164
+INFO 2023-08-07 11:09:17,539 autoreload 27324 26504 Watching for file changes with StatReloader
+INFO 2023-08-07 11:09:21,429 basehttp 27324 27072 "GET / HTTP/1.1" 200 11
+WARNING 2023-08-07 11:09:22,171 log 27324 27072 Not Found: /favicon.ico
+WARNING 2023-08-07 11:09:22,172 basehttp 27324 27072 "GET /favicon.ico HTTP/1.1" 404 2586
+INFO 2023-08-07 11:09:30,116 basehttp 27324 27072 "GET /main HTTP/1.1" 301 0
+INFO 2023-08-07 11:09:30,121 views 27324 27136 Main page accessed.
+INFO 2023-08-07 11:09:30,122 basehttp 27324 27136 "GET /main/ HTTP/1.1" 200 164
+WARNING 2023-08-07 11:09:58,653 log 27324 27136 Not Found: /main/index.html
+WARNING 2023-08-07 11:09:58,653 basehttp 27324 27136 "GET /main/index.html HTTP/1.1" 404 2662
+WARNING 2023-08-07 11:10:13,006 log 27324 27136 Not Found: /main/about/
+WARNING 2023-08-07 11:10:13,007 basehttp 27324 27136 "GET /main/about/ HTTP/1.1" 404 2650
+INFO 2023-08-07 11:10:24,728 views 27324 27136 About page accessed.
+INFO 2023-08-07 11:10:24,729 basehttp 27324 27136 "GET /about/ HTTP/1.1" 200 181
+INFO 2023-08-07 11:12:00,779 autoreload 23160 26020 Watching for file changes with StatReloader
+INFO 2023-08-07 11:12:05,517 views 23160 26936 About page accessed.
+INFO 2023-08-07 11:12:05,518 basehttp 23160 26936 "GET /about/ HTTP/1.1" 200 181
+INFO 2023-08-07 11:12:12,240 views 23160 26936 Main page accessed.
+INFO 2023-08-07 11:12:12,241 basehttp 23160 26936 "GET /main/ HTTP/1.1" 200 164
+WARNING 2023-08-07 11:12:21,786 log 23160 26936 Not Found: /main_page/
+WARNING 2023-08-07 11:12:21,786 basehttp 23160 26936 "GET /main_page/ HTTP/1.1" 404 2583
+WARNING 2023-08-07 11:15:41,357 log 23160 26936 Not Found: /main_page/
+WARNING 2023-08-07 11:15:41,358 basehttp 23160 26936 "GET /main_page/ HTTP/1.1" 404 2583
+INFO 2023-08-07 11:15:47,643 views 23160 26936 Main page accessed.
+INFO 2023-08-07 11:15:47,644 basehttp 23160 26936 "GET /main/ HTTP/1.1" 200 164
+WARNING 2023-08-07 11:15:56,459 log 23160 26936 Not Found: /main/index.html
+WARNING 2023-08-07 11:15:56,460 basehttp 23160 26936 "GET /main/index.html HTTP/1.1" 404 2662
+WARNING 2023-08-07 11:16:02,508 log 23160 26936 Not Found: /main/index
+WARNING 2023-08-07 11:16:02,509 basehttp 23160 26936 "GET /main/index HTTP/1.1" 404 2647
+WARNING 2023-08-07 11:16:08,820 log 23160 26936 Not Found: /main/hello
+WARNING 2023-08-07 11:16:08,821 basehttp 23160 26936 "GET /main/hello HTTP/1.1" 404 2647
+INFO 2023-08-07 11:17:14,890 autoreload 23160 26020 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\main_page\views.py changed, reloading.
+INFO 2023-08-07 11:17:15,598 autoreload 27052 23636 Watching for file changes with StatReloader
+WARNING 2023-08-07 11:17:16,888 log 27052 20220 Not Found: /main/hello
+WARNING 2023-08-07 11:17:16,889 basehttp 27052 20220 "GET /main/hello HTTP/1.1" 404 2647
+INFO 2023-08-07 11:17:43,869 views 27052 20220 Main page accessed.
+INFO 2023-08-07 11:17:43,870 basehttp 27052 20220 "GET /main/ HTTP/1.1" 200 164
+WARNING 2023-08-07 11:17:50,643 log 27052 20220 Not Found: /main/hello/
+WARNING 2023-08-07 11:17:50,644 basehttp 27052 20220 "GET /main/hello/ HTTP/1.1" 404 2650
+WARNING 2023-08-07 11:18:09,117 log 27052 20220 Not Found: /main/mainpage/
+WARNING 2023-08-07 11:18:09,118 basehttp 27052 20220 "GET /main/mainpage/ HTTP/1.1" 404 2659
+WARNING 2023-08-07 11:18:13,370 log 27052 20220 Not Found: /mainpage/
+WARNING 2023-08-07 11:18:13,371 basehttp 27052 20220 "GET /mainpage/ HTTP/1.1" 404 2580
+WARNING 2023-08-07 11:18:22,938 log 27052 20220 Not Found: /index/
+WARNING 2023-08-07 11:18:22,939 basehttp 27052 20220 "GET /index/ HTTP/1.1" 404 2571
+WARNING 2023-08-07 11:19:17,870 log 27052 20220 Not Found: /index/
+WARNING 2023-08-07 11:19:17,871 basehttp 27052 20220 "GET /index/ HTTP/1.1" 404 2571
+INFO 2023-08-07 11:19:25,061 views 27052 20220 Main page accessed.
+INFO 2023-08-07 11:19:25,063 basehttp 27052 20220 "GET /main/ HTTP/1.1" 200 164
+INFO 2023-08-07 12:30:08,502 autoreload 27636 3232 Watching for file changes with StatReloader
+INFO 2023-08-07 12:30:45,608 autoreload 27636 3232 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\urls.py changed, reloading.
+INFO 2023-08-07 12:30:46,575 autoreload 27576 5484 Watching for file changes with StatReloader
+INFO 2023-08-07 12:30:51,962 basehttp 27576 22316 "GET / HTTP/1.1" 200 11
+WARNING 2023-08-07 12:30:59,783 log 27576 22316 Not Found: /sem3
+WARNING 2023-08-07 12:30:59,784 basehttp 27576 22316 "GET /sem3 HTTP/1.1" 404 2670
+WARNING 2023-08-07 12:31:12,296 log 27576 22316 Not Found: /sem3/coin
+WARNING 2023-08-07 12:31:12,297 basehttp 27576 22316 "GET /sem3/coin HTTP/1.1" 404 2773
+WARNING 2023-08-07 12:31:17,990 log 27576 22316 Not Found: /sem3/coin/
+WARNING 2023-08-07 12:31:17,990 basehttp 27576 22316 "GET /sem3/coin/ HTTP/1.1" 404 2776
+WARNING 2023-08-07 12:31:31,934 log 27576 22316 Not Found: /sem3/coin/3
+WARNING 2023-08-07 12:31:31,935 basehttp 27576 22316 "GET /sem3/coin/3 HTTP/1.1" 404 2779
+WARNING 2023-08-07 12:31:37,699 log 27576 22316 Not Found: /sem3/coin/3/
+WARNING 2023-08-07 12:31:37,700 basehttp 27576 22316 "GET /sem3/coin/3/ HTTP/1.1" 404 2782
+ERROR 2023-08-07 12:32:27,590 log 27576 22316 Internal Server Error: /sem3/game/coin/3/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: coin() got an unexpected keyword argument 'count'
+ERROR 2023-08-07 12:32:27,593 basehttp 27576 22316 "GET /sem3/game/coin/3/ HTTP/1.1" 500 63537
+INFO 2023-08-07 12:33:12,626 autoreload 27576 5484 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-07 12:33:13,711 autoreload 16544 26744 Watching for file changes with StatReloader
+ERROR 2023-08-07 12:33:17,586 log 16544 27256 Internal Server Error: /sem3/game/coin/3/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: coin() got an unexpected keyword argument 'count'
+ERROR 2023-08-07 12:33:17,588 basehttp 16544 27256 "GET /sem3/game/coin/3/ HTTP/1.1" 500 63674
+ERROR 2023-08-07 12:33:22,757 log 16544 27256 Internal Server Error: /sem3/game/coin/3/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: coin() got an unexpected keyword argument 'count'
+ERROR 2023-08-07 12:33:22,760 basehttp 16544 27256 "GET /sem3/game/coin/3/ HTTP/1.1" 500 63674
+ERROR 2023-08-07 12:33:28,483 log 16544 27256 Internal Server Error: /sem3/game/coin/7/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: coin() got an unexpected keyword argument 'count'
+ERROR 2023-08-07 12:33:28,486 basehttp 16544 27256 "GET /sem3/game/coin/7/ HTTP/1.1" 500 63537
+INFO 2023-08-07 12:34:08,540 autoreload 16544 26744 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-07 12:34:09,506 autoreload 14856 18776 Watching for file changes with StatReloader
+INFO 2023-08-07 12:34:12,072 basehttp 14856 16204 "GET /sem3/game/coin/7/ HTTP/1.1" 200 279
+INFO 2023-08-07 12:34:19,197 basehttp 14856 16204 "GET /sem3/game/coin/7/ HTTP/1.1" 200 279
+INFO 2023-08-07 12:38:11,940 autoreload 25700 1492 Watching for file changes with StatReloader
+INFO 2023-08-07 12:38:17,596 basehttp 25700 15328 "GET /sem3/game/coin/7/ HTTP/1.1" 200 279
+INFO 2023-08-07 12:38:24,107 basehttp 25700 15328 "GET /sem3/game/coin/7/ HTTP/1.1" 200 279
+INFO 2023-08-07 12:39:24,752 autoreload 25700 1492 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-07 12:39:25,618 autoreload 12804 5172 Watching for file changes with StatReloader
+ERROR 2023-08-07 12:39:26,188 log 12804 4640 Internal Server Error: /sem3/game/coin/7/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 16, in coin
+    return render(request, template_name='sem3/coin.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem3/coin.html
+ERROR 2023-08-07 12:39:26,194 basehttp 12804 4640 "GET /sem3/game/coin/7/ HTTP/1.1" 500 83413
+INFO 2023-08-07 12:39:47,248 autoreload 12804 5172 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-07 12:39:48,149 autoreload 23944 27276 Watching for file changes with StatReloader
+ERROR 2023-08-07 12:39:58,715 log 23944 15580 Internal Server Error: /sem3/game/coin/3/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 16, in coin
+    return render(request, template_name='sem3/coin.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem3/coin.html
+ERROR 2023-08-07 12:39:58,719 basehttp 23944 15580 "GET /sem3/game/coin/3/ HTTP/1.1" 500 82781
+ERROR 2023-08-07 12:41:48,201 log 23944 15580 Internal Server Error: /sem3/game/coin/3/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 16, in coin
+    return render(request, template_name='sem3/coin.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem3/coin.html
+ERROR 2023-08-07 12:41:48,206 basehttp 23944 15580 "GET /sem3/game/coin/3/ HTTP/1.1" 500 82912
+INFO 2023-08-07 12:44:18,302 autoreload 23944 27276 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-07 12:44:19,554 autoreload 17064 1620 Watching for file changes with StatReloader
+INFO 2023-08-07 12:45:47,626 autoreload 17064 1620 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-07 12:45:48,594 autoreload 24616 10788 Watching for file changes with StatReloader
+INFO 2023-08-07 12:45:56,794 autoreload 5116 12216 Watching for file changes with StatReloader
+ERROR 2023-08-07 12:46:01,316 log 5116 18492 Internal Server Error: /sem3/game/coin/3/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 16, in coin
+    return render(request, template_name='sem3/coin.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: sem3/coin.html
+ERROR 2023-08-07 12:46:01,320 basehttp 5116 18492 "GET /sem3/game/coin/3/ HTTP/1.1" 500 82918
+ERROR 2023-08-07 12:46:30,803 log 5116 18492 Internal Server Error: /sem3/game/coin/3/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 16, in coin
+    return render(request, template_name='sem3/coin.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 3: 'block'. Looking for one of: endblock.
+ERROR 2023-08-07 12:46:30,813 basehttp 5116 18492 "GET /sem3/game/coin/3/ HTTP/1.1" 500 157555
+INFO 2023-08-07 12:47:02,362 basehttp 5116 18492 "GET /sem3/game/coin/3/ HTTP/1.1" 200 263
+INFO 2023-08-07 12:47:28,260 basehttp 5116 18492 "GET /sem3/game/coin/3/ HTTP/1.1" 200 261
+INFO 2023-08-07 12:47:29,001 basehttp 5116 18492 "GET /sem3/game/coin/3/ HTTP/1.1" 200 261
+INFO 2023-08-07 12:47:29,651 basehttp 5116 18492 "GET /sem3/game/coin/3/ HTTP/1.1" 200 257
+INFO 2023-08-07 12:47:30,143 basehttp 5116 18492 "GET /sem3/game/coin/3/ HTTP/1.1" 200 257
+INFO 2023-08-07 12:47:30,715 basehttp 5116 18492 "GET /sem3/game/coin/3/ HTTP/1.1" 200 261
+INFO 2023-08-07 12:47:31,122 basehttp 5116 18492 "GET /sem3/game/coin/3/ HTTP/1.1" 200 259
+INFO 2023-08-07 12:47:31,528 basehttp 5116 18492 "GET /sem3/game/coin/3/ HTTP/1.1" 200 261
+INFO 2023-08-07 12:47:40,206 basehttp 5116 18492 "GET /sem3/game/coin/10/ HTTP/1.1" 200 411
+INFO 2023-08-07 12:50:47,617 autoreload 5116 12216 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\urls.py changed, reloading.
+INFO 2023-08-07 12:50:48,938 autoreload 9456 17964 Watching for file changes with StatReloader
+INFO 2023-08-07 12:52:26,837 autoreload 9456 17964 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-07 12:52:27,867 autoreload 22460 26628 Watching for file changes with StatReloader
+INFO 2023-08-07 12:55:51,886 autoreload 22460 26628 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-07 12:55:53,148 autoreload 19068 9520 Watching for file changes with StatReloader
+INFO 2023-08-07 12:55:57,469 basehttp 19068 17836 "GET /sem3/game/dice/10/ HTTP/1.1" 200 349
+INFO 2023-08-07 12:56:01,081 basehttp 19068 17836 "GET /sem3/game/dice/10/ HTTP/1.1" 200 349
+INFO 2023-08-07 12:56:02,343 basehttp 19068 17836 "GET /sem3/game/dice/10/ HTTP/1.1" 200 349
+INFO 2023-08-07 12:56:11,858 basehttp 19068 17836 "GET /sem3/game/ran_num/10/ HTTP/1.1" 200 395
+INFO 2023-08-07 13:58:23,909 autoreload 5500 23752 Watching for file changes with StatReloader
+INFO 2023-08-07 14:01:33,891 autoreload 16236 22156 Watching for file changes with StatReloader
+INFO 2023-08-07 14:03:57,470 autoreload 19072 13716 Watching for file changes with StatReloader
+INFO 2023-08-07 14:07:31,552 autoreload 19072 13716 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 14:10:16,300 autoreload 27620 26848 Watching for file changes with StatReloader
+INFO 2023-08-07 14:12:23,752 autoreload 6336 10456 Watching for file changes with StatReloader
+INFO 2023-08-07 14:16:02,078 autoreload 15204 2892 Watching for file changes with StatReloader
+INFO 2023-08-07 14:16:47,843 basehttp 15204 23896 "GET /sem2_task1/articles/1 HTTP/1.1" 301 0
+ERROR 2023-08-07 14:16:47,938 log 15204 32 Internal Server Error: /sem2_task1/articles/1/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 17, in get_article_by_author
+    return render(request, template_name='sem2_task1/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'else', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2023-08-07 14:16:47,947 basehttp 15204 32 "GET /sem2_task1/articles/1/ HTTP/1.1" 500 185991
+ERROR 2023-08-07 14:17:06,933 log 15204 32 Internal Server Error: /sem2_task1/articles/11/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 17, in get_article_by_author
+    return render(request, template_name='sem2_task1/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 11: 'else', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2023-08-07 14:17:06,942 basehttp 15204 32 "GET /sem2_task1/articles/11/ HTTP/1.1" 500 187549
+INFO 2023-08-07 14:18:05,952 basehttp 15204 32 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 597
+INFO 2023-08-07 14:18:11,297 basehttp 15204 32 "GET /sem2_task1/articles/1/ HTTP/1.1" 200 219
+INFO 2023-08-07 14:18:14,433 basehttp 15204 32 "GET /sem2_task1/articles/2/ HTTP/1.1" 200 219
+INFO 2023-08-07 14:18:17,796 basehttp 15204 32 "GET /sem2_task1/articles/3/ HTTP/1.1" 200 219
+WARNING 2023-08-07 14:18:22,901 log 15204 32 Not Found: /sem2_task1/articles/20/
+WARNING 2023-08-07 14:18:22,901 basehttp 15204 32 "GET /sem2_task1/articles/20/ HTTP/1.1" 404 3122
+INFO 2023-08-07 14:18:31,798 basehttp 15204 32 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 597
+INFO 2023-08-07 14:20:10,298 basehttp 15204 32 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 597
+INFO 2023-08-07 14:20:12,570 basehttp 15204 32 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 597
+INFO 2023-08-07 14:20:17,353 basehttp 15204 32 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 597
+INFO 2023-08-07 14:20:18,331 basehttp 15204 32 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 597
+INFO 2023-08-07 14:20:24,212 basehttp 15204 32 "GET /sem2_task1/articles/5 HTTP/1.1" 301 0
+INFO 2023-08-07 14:20:24,220 basehttp 15204 17232 "GET /sem2_task1/articles/5/ HTTP/1.1" 200 597
+INFO 2023-08-07 14:20:28,389 basehttp 15204 17232 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 597
+INFO 2023-08-07 14:21:28,015 basehttp 15204 17232 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 597
+INFO 2023-08-07 14:22:47,593 basehttp 15204 17232 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 613
+INFO 2023-08-07 15:22:29,287 autoreload 14436 3284 Watching for file changes with StatReloader
+ERROR 2023-08-07 15:22:37,429 log 14436 21304 Internal Server Error: /sem2_task1/articles/11/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 17, in get_article_by_author
+    return render(request, template_name='sem2_task1/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article' not found. 'article' is not a valid view function or pattern name.
+ERROR 2023-08-07 15:22:37,442 basehttp 14436 21304 "GET /sem2_task1/articles/11/ HTTP/1.1" 500 203220
+INFO 2023-08-07 15:32:48,019 basehttp 14436 20944 "GET /sem2_task1/articles/11 HTTP/1.1" 301 0
+INFO 2023-08-07 15:32:48,033 basehttp 14436 19416 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 613
+ERROR 2023-08-07 15:32:58,379 log 14436 19416 Internal Server Error: /sem2_task1/articles/11/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 17, in get_article_by_author
+    return render(request, template_name='sem2_task1/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article' not found. 'article' is not a valid view function or pattern name.
+ERROR 2023-08-07 15:32:58,386 basehttp 14436 19416 "GET /sem2_task1/articles/11/ HTTP/1.1" 500 203213
+ERROR 2023-08-07 15:33:00,505 log 14436 19416 Internal Server Error: /sem2_task1/articles/11/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 17, in get_article_by_author
+    return render(request, template_name='sem2_task1/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article' not found. 'article' is not a valid view function or pattern name.
+ERROR 2023-08-07 15:33:00,514 basehttp 14436 19416 "GET /sem2_task1/articles/11/ HTTP/1.1" 500 203213
+ERROR 2023-08-07 15:35:19,695 log 14436 19416 Internal Server Error: /sem2_task1/articles/11/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 17, in get_article_by_author
+    return render(request, template_name='sem2_task1/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article_full' not found. 'article_full' is not a valid view function or pattern name.
+ERROR 2023-08-07 15:35:19,703 basehttp 14436 19416 "GET /sem2_task1/articles/11/ HTTP/1.1" 500 203343
+ERROR 2023-08-07 15:35:22,880 log 14436 19416 Internal Server Error: /sem2_task1/articles/11/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 17, in get_article_by_author
+    return render(request, template_name='sem2_task1/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article_full' not found. 'article_full' is not a valid view function or pattern name.
+ERROR 2023-08-07 15:35:22,887 basehttp 14436 19416 "GET /sem2_task1/articles/11/ HTTP/1.1" 500 203343
+ERROR 2023-08-07 15:37:09,195 log 14436 19416 Internal Server Error: /sem2_task1/articles/11/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 17, in get_article_by_author
+    return render(request, template_name='sem2_task1/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article_full' not found. 'article_full' is not a valid view function or pattern name.
+ERROR 2023-08-07 15:37:09,203 basehttp 14436 19416 "GET /sem2_task1/articles/11/ HTTP/1.1" 500 203415
+ERROR 2023-08-07 15:37:11,109 log 14436 19416 Internal Server Error: /sem2_task1/articles/11/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 17, in get_article_by_author
+    return render(request, template_name='sem2_task1/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article_full' not found. 'article_full' is not a valid view function or pattern name.
+ERROR 2023-08-07 15:37:11,116 basehttp 14436 19416 "GET /sem2_task1/articles/11/ HTTP/1.1" 500 203415
+INFO 2023-08-07 15:38:47,909 basehttp 14436 19416 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 613
+INFO 2023-08-07 15:38:53,004 basehttp 14436 19416 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 613
+INFO 2023-08-07 15:39:12,843 basehttp 14436 19416 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 613
+ERROR 2023-08-07 15:41:32,061 log 14436 19416 Internal Server Error: /sem2_task1/articles/11/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 17, in get_article_by_author
+    return render(request, template_name='sem2_task1/articles.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article' not found. 'article' is not a valid view function or pattern name.
+ERROR 2023-08-07 15:41:32,070 basehttp 14436 19416 "GET /sem2_task1/articles/11/ HTTP/1.1" 500 203213
+INFO 2023-08-07 15:41:58,275 basehttp 14436 19416 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 635
+INFO 2023-08-07 15:42:00,330 basehttp 14436 19416 "GET /sem2_task1/article/55/ HTTP/1.1" 200 123
+INFO 2023-08-07 16:06:37,923 autoreload 20176 26356 Watching for file changes with StatReloader
+INFO 2023-08-07 16:06:46,319 basehttp 20176 26928 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 635
+INFO 2023-08-07 16:06:48,045 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 16:08:27,300 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 179
+INFO 2023-08-07 16:08:39,337 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 16:11:00,923 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 184
+INFO 2023-08-07 16:11:01,686 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 184
+INFO 2023-08-07 16:11:15,833 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 16:15:06,136 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 189
+INFO 2023-08-07 16:15:25,180 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 16:16:16,304 basehttp 20176 26928 "GET /sem2_task1/article/54/ HTTP/1.1" 200 181
+INFO 2023-08-07 16:16:21,267 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 16:17:04,373 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 16:18:30,536 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 187
+INFO 2023-08-07 16:18:32,199 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 187
+INFO 2023-08-07 16:18:33,849 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 187
+INFO 2023-08-07 16:18:58,959 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 187
+INFO 2023-08-07 16:19:00,333 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 187
+INFO 2023-08-07 16:19:18,722 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:21:23,352 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:21:26,348 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:21:27,183 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:21:28,347 basehttp 20176 26928 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:28:56,069 autoreload 20176 26356 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 16:28:57,494 autoreload 15896 20256 Watching for file changes with StatReloader
+INFO 2023-08-07 16:30:21,659 autoreload 15896 20256 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 16:30:22,995 autoreload 25092 26432 Watching for file changes with StatReloader
+INFO 2023-08-07 16:30:28,213 basehttp 25092 22044 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:31:28,689 autoreload 25092 26432 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 16:31:29,644 autoreload 2116 27432 Watching for file changes with StatReloader
+INFO 2023-08-07 16:31:30,157 basehttp 2116 24320 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:31:30,697 basehttp 2116 24320 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:31:31,398 basehttp 2116 24320 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:31:32,144 basehttp 2116 24320 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:31:52,325 autoreload 2116 27432 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 16:31:53,241 autoreload 25528 25980 Watching for file changes with StatReloader
+INFO 2023-08-07 16:31:55,167 basehttp 25528 23308 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:31:56,229 basehttp 25528 23308 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:31:57,036 basehttp 25528 23308 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:31:59,456 basehttp 25528 23308 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:35:00,750 autoreload 25528 25980 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 16:35:01,998 autoreload 23808 27036 Watching for file changes with StatReloader
+INFO 2023-08-07 16:41:31,512 autoreload 23808 27036 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 16:41:32,751 autoreload 28288 23716 Watching for file changes with StatReloader
+INFO 2023-08-07 16:41:57,710 basehttp 28288 13836 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:41:59,964 basehttp 28288 13836 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:43:00,684 basehttp 28288 13836 "GET /sem2_task1/article/55/ HTTP/1.1" 200 230
+INFO 2023-08-07 16:43:02,015 basehttp 28288 13836 "GET /sem2_task1/article/55/ HTTP/1.1" 200 230
+INFO 2023-08-07 16:43:34,065 autoreload 28288 23716 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 16:43:35,123 autoreload 13424 20824 Watching for file changes with StatReloader
+INFO 2023-08-07 16:48:27,393 autoreload 13424 20824 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\models.py changed, reloading.
+INFO 2023-08-07 16:48:28,583 autoreload 17836 21620 Watching for file changes with StatReloader
+INFO 2023-08-07 16:48:30,242 basehttp 17836 27936 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:48:32,235 basehttp 17836 27936 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:48:36,506 autoreload 17836 21620 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\models.py changed, reloading.
+INFO 2023-08-07 16:48:37,713 autoreload 24020 28004 Watching for file changes with StatReloader
+INFO 2023-08-07 16:48:41,840 basehttp 24020 16580 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:51:36,555 basehttp 24020 16580 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:52:05,589 basehttp 24020 16580 "GET /sem2_task1/article/55/ HTTP/1.1" 200 174
+INFO 2023-08-07 16:52:06,739 basehttp 24020 16580 "GET /sem2_task1/article/55/ HTTP/1.1" 200 174
+INFO 2023-08-07 16:52:07,544 basehttp 24020 16580 "GET /sem2_task1/article/55/ HTTP/1.1" 200 174
+INFO 2023-08-07 16:52:21,132 basehttp 24020 16580 "GET /sem2_task1/article/55/ HTTP/1.1" 200 178
+INFO 2023-08-07 16:52:21,975 basehttp 24020 16580 "GET /sem2_task1/article/55/ HTTP/1.1" 200 178
+INFO 2023-08-07 16:52:50,361 basehttp 24020 16580 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:52:51,771 basehttp 24020 16580 "GET /sem2_task1/article/55/ HTTP/1.1" 200 183
+INFO 2023-08-07 16:53:04,113 basehttp 24020 16580 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 16:53:12,529 basehttp 24020 16580 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 16:53:13,913 basehttp 24020 16580 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:00:45,744 basehttp 24020 27148 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:03:19,763 autoreload 24020 28004 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 17:03:21,018 autoreload 9236 27772 Watching for file changes with StatReloader
+INFO 2023-08-07 17:03:39,200 basehttp 9236 27812 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:03:42,518 basehttp 9236 27812 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:04:17,482 autoreload 9236 27772 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 17:04:18,436 autoreload 20168 21788 Watching for file changes with StatReloader
+INFO 2023-08-07 17:04:18,606 basehttp 20168 14308 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:04:19,329 basehttp 20168 14308 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:04:40,130 autoreload 20168 21788 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 17:04:41,256 autoreload 27640 6248 Watching for file changes with StatReloader
+INFO 2023-08-07 17:04:41,829 basehttp 27640 16500 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:04:42,801 basehttp 27640 16500 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:04:43,708 basehttp 27640 16500 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:05:55,456 autoreload 27640 6248 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 17:05:56,364 autoreload 26860 17532 Watching for file changes with StatReloader
+ERROR 2023-08-07 17:05:56,878 log 26860 19312 Internal Server Error: /sem2_task1/article/55/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 26, in get_article
+    'textcontent': article.get(),
+                   ^^^^^^^^^^^
+AttributeError: 'Article' object has no attribute 'get'
+ERROR 2023-08-07 17:05:56,882 basehttp 26860 19312 "GET /sem2_task1/article/55/ HTTP/1.1" 500 67295
+INFO 2023-08-07 17:13:09,132 autoreload 26860 17532 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 17:13:10,307 autoreload 23376 8736 Watching for file changes with StatReloader
+INFO 2023-08-07 17:13:38,428 autoreload 23376 8736 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 17:13:39,261 autoreload 4864 4064 Watching for file changes with StatReloader
+INFO 2023-08-07 17:14:05,929 autoreload 4864 4064 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 17:14:06,732 autoreload 27968 27948 Watching for file changes with StatReloader
+INFO 2023-08-07 17:14:20,732 autoreload 27968 27948 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 17:14:21,549 autoreload 15620 28460 Watching for file changes with StatReloader
+INFO 2023-08-07 17:14:47,276 autoreload 15620 28460 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 17:14:48,179 autoreload 19072 26060 Watching for file changes with StatReloader
+INFO 2023-08-07 17:14:49,630 basehttp 19072 14400 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:14:51,969 basehttp 19072 14400 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:15:17,341 autoreload 19072 26060 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 17:15:18,361 autoreload 26304 28324 Watching for file changes with StatReloader
+INFO 2023-08-07 17:15:18,847 basehttp 26304 10984 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:15:19,926 basehttp 26304 10984 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:16:44,691 basehttp 26304 10984 "GET /sem2_task1/article/55/ HTTP/1.1" 200 195
+INFO 2023-08-07 17:16:56,678 basehttp 26304 10984 "GET /sem2_task1/article/55/ HTTP/1.1" 200 181
+INFO 2023-08-07 17:20:02,779 autoreload 26304 28324 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-07 17:20:04,186 autoreload 28196 10120 Watching for file changes with StatReloader
+INFO 2023-08-07 17:20:05,731 basehttp 28196 28436 "GET /sem2_task1/article/55/ HTTP/1.1" 200 200
