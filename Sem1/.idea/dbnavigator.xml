@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -23,8 +23,13 @@
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="4ef59e1b-587f-4a11-8b40-7803a1f56ae3" dataset="sem3.django_session" active-filter-id="" />
+    <filter-actions connection-id="4ef59e1b-587f-4a11-8b40-7803a1f56ae3" dataset="sem3.homework2_order_products" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="4ef59e1b-587f-4a11-8b40-7803a1f56ae3" dataset="sem3.sem2_task1_article" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="4ef59e1b-587f-4a11-8b40-7803a1f56ae3" dataset="sem3.homework2_item" active-filter-id="EMPTY_FILTER" />
     <filter-actions connection-id="4ef59e1b-587f-4a11-8b40-7803a1f56ae3" dataset="sem3.sem2_task1_author" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="4ef59e1b-587f-4a11-8b40-7803a1f56ae3" dataset="sem3.homework2_order" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="4ef59e1b-587f-4a11-8b40-7803a1f56ae3" dataset="sem3.homework2_client" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -515,5 +520,8 @@
         </visibility-settings>
       </environment>
     </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
   </component>
 </project>

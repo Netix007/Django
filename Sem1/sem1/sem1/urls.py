@@ -26,4 +26,5 @@ urlpatterns = [
     path('about/', include('about_page.urls')),
     path('sem3/', include('sem3.urls')),
     path('sem2_task1/', include('sem2_task1.urls')),
+    path('homework2/', include('homework2.urls')),
 ]
