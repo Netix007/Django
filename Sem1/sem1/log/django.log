@@ -5392,3 +5392,640 @@ INFO 2023-08-08 19:11:59,456 views 24764 17572 Access to all items page from 127
 INFO 2023-08-08 19:11:59,471 basehttp 24764 17572 "GET /homework2/orders/17/ HTTP/1.1" 200 2118
 INFO 2023-08-08 19:12:41,784 views 24764 17572 Access to all items page from 127.0.0.1, user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188
 INFO 2023-08-08 19:12:41,793 basehttp 24764 17572 "GET /homework2/orders/17/ HTTP/1.1" 200 1954
+INFO 2023-08-11 00:54:34,502 autoreload 17188 13632 Watching for file changes with StatReloader
+INFO 2023-08-11 00:54:39,522 basehttp 17188 11240 "GET / HTTP/1.1" 200 11
+WARNING 2023-08-11 00:54:40,933 log 17188 11240 Not Found: /favicon.ico
+WARNING 2023-08-11 00:54:40,935 basehttp 17188 11240 "GET /favicon.ico HTTP/1.1" 404 2912
+WARNING 2023-08-11 00:55:40,603 log 17188 11240 Not Found: /sem3/
+WARNING 2023-08-11 00:55:40,604 basehttp 17188 11240 "GET /sem3/ HTTP/1.1" 404 3374
+INFO 2023-08-11 00:56:20,287 autoreload 17188 13632 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\urls.py changed, reloading.
+INFO 2023-08-11 00:56:21,249 autoreload 13412 24536 Watching for file changes with StatReloader
+WARNING 2023-08-11 00:56:35,664 log 13412 22780 Not Found: /sem3/
+WARNING 2023-08-11 00:56:35,665 basehttp 13412 22780 "GET /sem3/ HTTP/1.1" 404 3573
+WARNING 2023-08-11 00:56:48,538 log 13412 22780 Not Found: /sem3/game/
+WARNING 2023-08-11 00:56:48,539 basehttp 13412 22780 "GET /sem3/game/ HTTP/1.1" 404 3588
+INFO 2023-08-11 00:57:47,361 autoreload 13412 24536 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\urls.py changed, reloading.
+INFO 2023-08-11 00:57:48,838 autoreload 11616 24432 Watching for file changes with StatReloader
+INFO 2023-08-11 00:57:57,497 autoreload 11616 24432 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\urls.py changed, reloading.
+INFO 2023-08-11 00:57:58,531 autoreload 1492 22444 Watching for file changes with StatReloader
+WARNING 2023-08-11 00:57:59,160 log 1492 15160 Not Found: /sem3/game/
+WARNING 2023-08-11 00:57:59,161 basehttp 1492 15160 "GET /sem3/game/ HTTP/1.1" 404 3568
+INFO 2023-08-11 00:58:21,902 autoreload 1492 22444 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\urls.py changed, reloading.
+INFO 2023-08-11 00:58:23,060 autoreload 2248 3264 Watching for file changes with StatReloader
+WARNING 2023-08-11 00:58:23,442 log 2248 21988 Not Found: /sem3/game/
+WARNING 2023-08-11 00:58:23,444 basehttp 2248 21988 "GET /sem3/game/ HTTP/1.1" 404 3573
+INFO 2023-08-11 01:00:35,169 autoreload 2248 3264 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:00:36,377 autoreload 2768 1968 Watching for file changes with StatReloader
+WARNING 2023-08-11 01:00:39,026 log 2768 22412 Not Found: /sem3/game/
+WARNING 2023-08-11 01:00:39,027 basehttp 2768 22412 "GET /sem3/game/ HTTP/1.1" 404 3573
+WARNING 2023-08-11 01:00:42,152 log 2768 22412 Not Found: /sem3/game/
+WARNING 2023-08-11 01:00:42,153 basehttp 2768 22412 "GET /sem3/game/ HTTP/1.1" 404 3573
+INFO 2023-08-11 01:00:56,271 autoreload 2768 1968 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:00:57,166 autoreload 9900 10492 Watching for file changes with StatReloader
+INFO 2023-08-11 01:01:03,260 autoreload 9900 10492 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:01:04,277 autoreload 14892 12712 Watching for file changes with StatReloader
+WARNING 2023-08-11 01:01:04,578 log 14892 24264 Not Found: /sem3/game/
+WARNING 2023-08-11 01:01:04,579 basehttp 14892 24264 "GET /sem3/game/ HTTP/1.1" 404 3573
+WARNING 2023-08-11 01:01:05,418 log 14892 24264 Not Found: /sem3/game/
+WARNING 2023-08-11 01:01:05,419 basehttp 14892 24264 "GET /sem3/game/ HTTP/1.1" 404 3573
+WARNING 2023-08-11 01:01:28,517 log 14892 24264 Not Found: /sem3/ /game/
+WARNING 2023-08-11 01:01:28,518 basehttp 14892 24264 "GET /sem3/%20/game/ HTTP/1.1" 404 3581
+INFO 2023-08-11 01:02:14,914 autoreload 14892 12712 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:02:15,808 autoreload 13228 12956 Watching for file changes with StatReloader
+WARNING 2023-08-11 01:02:16,048 log 13228 3696 Not Found: /sem3/ /game/
+WARNING 2023-08-11 01:02:16,050 basehttp 13228 3696 "GET /sem3/%20/game/ HTTP/1.1" 404 3581
+WARNING 2023-08-11 01:02:17,517 log 13228 3696 Not Found: /sem3/ /game/
+WARNING 2023-08-11 01:02:17,519 basehttp 13228 3696 "GET /sem3/%20/game/ HTTP/1.1" 404 3581
+WARNING 2023-08-11 01:02:22,208 log 13228 3696 Not Found: /sem3/game/
+WARNING 2023-08-11 01:02:22,209 basehttp 13228 3696 "GET /sem3/game/ HTTP/1.1" 404 3573
+INFO 2023-08-11 01:04:46,344 autoreload 13228 12956 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\urls.py changed, reloading.
+INFO 2023-08-11 01:04:47,459 autoreload 18412 16580 Watching for file changes with StatReloader
+ERROR 2023-08-11 01:04:47,895 log 18412 11436 Internal Server Error: /sem3/game/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 62, in single_games_form
+    return render(request, 'game/choose_game_form.html',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: game/choose_game_form.html
+ERROR 2023-08-11 01:04:47,900 basehttp 18412 11436 "GET /sem3/game/ HTTP/1.1" 500 84428
+INFO 2023-08-11 01:09:28,156 autoreload 18412 16580 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:09:29,269 autoreload 13356 18468 Watching for file changes with StatReloader
+INFO 2023-08-11 01:09:29,763 basehttp 13356 16584 "GET /sem3/game/ HTTP/1.1" 200 881
+ERROR 2023-08-11 01:09:36,152 log 13356 16584 Internal Server Error: /sem3/game/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 44, in single_games_form
+    title = ['Coin play', 'Dice', 'Random number'][int(forms.data['a_game'])]
+                                                       ^^^^^^^^^^
+AttributeError: module 'django.forms' has no attribute 'data'
+ERROR 2023-08-11 01:09:36,155 basehttp 13356 16584 "POST /sem3/game/ HTTP/1.1" 500 69558
+ERROR 2023-08-11 01:12:19,093 log 13356 16584 Internal Server Error: /sem3/game/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 44, in single_games_form
+    title = ['Coin play', 'Dice', 'Random number'][int(forms.data['a_game'])]
+                                                       ^^^^^^^^^^
+AttributeError: module 'django.forms' has no attribute 'data'
+ERROR 2023-08-11 01:12:19,098 basehttp 13356 16584 "POST /sem3/game/ HTTP/1.1" 500 69558
+INFO 2023-08-11 01:12:21,874 basehttp 13356 16584 "GET /sem3/game/ HTTP/1.1" 200 881
+INFO 2023-08-11 01:12:24,137 basehttp 13356 16584 "GET / HTTP/1.1" 200 11
+ERROR 2023-08-11 01:12:35,149 log 13356 16584 Internal Server Error: /sem3/game/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 44, in single_games_form
+    title = ['Coin play', 'Dice', 'Random number'][int(forms.data['a_game'])]
+                                                       ^^^^^^^^^^
+AttributeError: module 'django.forms' has no attribute 'data'
+ERROR 2023-08-11 01:12:35,153 basehttp 13356 16584 "POST /sem3/game/ HTTP/1.1" 500 69559
+ERROR 2023-08-11 01:17:25,499 log 13356 16584 Internal Server Error: /sem3/game/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 44, in single_games_form
+    title = ['Coin play', 'Dice', 'Random number'][int(forms.data['a_game'])]
+                                                       ^^^^^^^^^^
+AttributeError: module 'django.forms' has no attribute 'data'
+ERROR 2023-08-11 01:17:25,504 basehttp 13356 16584 "POST /sem3/game/ HTTP/1.1" 500 69559
+INFO 2023-08-11 01:21:54,435 autoreload 13356 18468 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:21:55,586 autoreload 12316 3028 Watching for file changes with StatReloader
+INFO 2023-08-11 01:21:56,853 basehttp 12316 23996 "GET /sem3/game/ HTTP/1.1" 200 881
+ERROR 2023-08-11 01:22:00,272 log 12316 23996 Internal Server Error: /sem3/game/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 44, in single_games_form
+    title = ['Coin play', 'Dice', 'Random number'][int(forms.data['a_game'])]
+                                                       ^^^^^^^^^^
+AttributeError: module 'django.forms' has no attribute 'data'
+ERROR 2023-08-11 01:22:00,275 basehttp 12316 23996 "POST /sem3/game/ HTTP/1.1" 500 69558
+INFO 2023-08-11 01:22:54,332 autoreload 12316 3028 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:22:55,244 autoreload 24572 23684 Watching for file changes with StatReloader
+INFO 2023-08-11 01:22:59,667 basehttp 24572 15436 "GET /sem3/game/ HTTP/1.1" 200 881
+ERROR 2023-08-11 01:23:02,222 log 24572 15436 Internal Server Error: /sem3/game/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 44, in single_games_form
+    title = ['Coin play', 'Dice', 'Random number'][int(forms.data('a_game'))]
+                                                       ^^^^^^^^^^
+AttributeError: module 'django.forms' has no attribute 'data'
+ERROR 2023-08-11 01:23:02,226 basehttp 24572 15436 "POST /sem3/game/ HTTP/1.1" 500 69559
+INFO 2023-08-11 01:25:07,528 autoreload 24572 23684 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:25:08,793 autoreload 21580 2332 Watching for file changes with StatReloader
+INFO 2023-08-11 01:25:14,834 autoreload 21580 2332 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:25:15,725 autoreload 5176 9852 Watching for file changes with StatReloader
+INFO 2023-08-11 01:25:26,342 autoreload 5176 9852 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:25:27,293 autoreload 3684 14784 Watching for file changes with StatReloader
+INFO 2023-08-11 01:25:34,331 basehttp 3684 15776 "GET /sem3/game/ HTTP/1.1" 200 881
+ERROR 2023-08-11 01:25:37,522 log 3684 15776 Internal Server Error: /sem3/game/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 45, in single_games_form
+    title = ['Coin play', 'Dice', 'Random number'][int(form.data('a_game'))]
+                                                       ^^^^^^^^^^^^^^^^^^^
+TypeError: 'QueryDict' object is not callable
+ERROR 2023-08-11 01:25:37,526 basehttp 3684 15776 "POST /sem3/game/ HTTP/1.1" 500 69724
+INFO 2023-08-11 01:26:09,957 autoreload 3684 14784 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:26:10,985 autoreload 11024 18336 Watching for file changes with StatReloader
+INFO 2023-08-11 01:26:14,269 basehttp 11024 20092 "GET /sem3/game/ HTTP/1.1" 200 881
+ERROR 2023-08-11 01:26:17,595 log 11024 20092 Internal Server Error: /sem3/game/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 46, in single_games_form
+    if forms.is_valid():
+       ^^^^^^^^^^^^^^
+AttributeError: module 'django.forms' has no attribute 'is_valid'
+ERROR 2023-08-11 01:26:17,599 basehttp 11024 20092 "POST /sem3/game/ HTTP/1.1" 500 69860
+INFO 2023-08-11 01:26:38,530 autoreload 11024 18336 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:26:39,789 autoreload 4836 6392 Watching for file changes with StatReloader
+INFO 2023-08-11 01:26:41,733 basehttp 4836 9164 "GET /sem3/game/ HTTP/1.1" 200 881
+ERROR 2023-08-11 01:26:44,531 log 4836 9164 Internal Server Error: /sem3/game/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 48, in single_games_form
+    attempts_pack = [coin_sides[randint(0, 1)] for _ in range(forms.cleaned_data['attempts'])]
+                                                              ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'django.forms' has no attribute 'cleaned_data'
+ERROR 2023-08-11 01:26:44,535 basehttp 4836 9164 "POST /sem3/game/ HTTP/1.1" 500 70174
+INFO 2023-08-11 01:27:07,080 autoreload 4836 6392 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:27:07,959 autoreload 3680 10164 Watching for file changes with StatReloader
+INFO 2023-08-11 01:27:08,424 basehttp 3680 7416 "POST /sem3/game/ HTTP/1.1" 200 395
+INFO 2023-08-11 01:27:12,870 basehttp 3680 7416 "GET /sem3/game/ HTTP/1.1" 200 881
+INFO 2023-08-11 01:27:15,634 basehttp 3680 7416 "POST /sem3/game/ HTTP/1.1" 200 285
+INFO 2023-08-11 01:27:18,456 basehttp 3680 7416 "GET /sem3/game/ HTTP/1.1" 200 881
+ERROR 2023-08-11 01:27:22,080 log 3680 7416 Internal Server Error: /sem3/game/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 52, in single_games_form
+    attempts_pack = [coin_sides[randint(0, 99)] for _ in range(form.cleaned_data['attempts'])]
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 52, in <listcomp>
+    attempts_pack = [coin_sides[randint(0, 99)] for _ in range(form.cleaned_data['attempts'])]
+                     ~~~~~~~~~~^^^^^^^^^^^^^^^^
+IndexError: tuple index out of range
+ERROR 2023-08-11 01:27:22,084 basehttp 3680 7416 "POST /sem3/game/ HTTP/1.1" 500 74538
+ERROR 2023-08-11 01:29:22,756 log 3680 7416 Internal Server Error: /sem3/game/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 52, in single_games_form
+    attempts_pack = [coin_sides[randint(0, 99)] for _ in range(form.cleaned_data['attempts'])]
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py", line 52, in <listcomp>
+    attempts_pack = [coin_sides[randint(0, 99)] for _ in range(form.cleaned_data['attempts'])]
+                     ~~~~~~~~~~^^^^^^^^^^^^^^^^
+IndexError: tuple index out of range
+ERROR 2023-08-11 01:29:22,760 basehttp 3680 7416 "POST /sem3/game/ HTTP/1.1" 500 74538
+INFO 2023-08-11 01:30:33,991 autoreload 3680 10164 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem3\views.py changed, reloading.
+INFO 2023-08-11 01:30:35,220 autoreload 2932 16204 Watching for file changes with StatReloader
+INFO 2023-08-11 01:30:38,099 basehttp 2932 4280 "POST /sem3/game/ HTTP/1.1" 200 268
+INFO 2023-08-11 01:30:41,472 basehttp 2932 4280 "GET /sem3/game/ HTTP/1.1" 200 881
+INFO 2023-08-11 01:30:46,095 basehttp 2932 4280 "POST /sem3/game/ HTTP/1.1" 200 213
+INFO 2023-08-11 10:25:57,631 autoreload 6364 9348 Watching for file changes with StatReloader
+WARNING 2023-08-11 10:26:08,565 log 6364 19192 Not Found: /sem3/
+WARNING 2023-08-11 10:26:08,567 basehttp 6364 19192 "GET /sem3/ HTTP/1.1" 404 3557
+WARNING 2023-08-11 10:26:09,195 log 6364 19192 Not Found: /favicon.ico
+WARNING 2023-08-11 10:26:09,196 basehttp 6364 19192 "GET /favicon.ico HTTP/1.1" 404 2912
+WARNING 2023-08-11 10:26:33,934 log 6364 19192 Not Found: /sem3/sem2_task1/
+WARNING 2023-08-11 10:26:33,935 basehttp 6364 19192 "GET /sem3/sem2_task1/ HTTP/1.1" 404 3590
+WARNING 2023-08-11 10:26:45,093 log 6364 19192 Not Found: /sem3/sem2_task1/author_forms
+WARNING 2023-08-11 10:26:45,094 basehttp 6364 19192 "GET /sem3/sem2_task1/author_forms HTTP/1.1" 404 3626
+WARNING 2023-08-11 10:26:48,631 log 6364 19192 Not Found: /sem3/sem2_task1/author_forms/
+WARNING 2023-08-11 10:26:48,632 basehttp 6364 19192 "GET /sem3/sem2_task1/author_forms/ HTTP/1.1" 404 3629
+INFO 2023-08-11 10:28:47,145 autoreload 6364 9348 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 10:28:48,590 autoreload 18068 17272 Watching for file changes with StatReloader
+INFO 2023-08-11 10:29:21,690 autoreload 18068 17272 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 10:29:22,642 autoreload 2332 20696 Watching for file changes with StatReloader
+INFO 2023-08-11 10:29:56,046 autoreload 2332 20696 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 10:29:56,876 autoreload 14564 3092 Watching for file changes with StatReloader
+WARNING 2023-08-11 10:30:02,531 log 14564 16880 Not Found: /sem3/sem2_task1/author_forms/
+WARNING 2023-08-11 10:30:02,533 basehttp 14564 16880 "GET /sem3/sem2_task1/author_forms/ HTTP/1.1" 404 3629
+WARNING 2023-08-11 10:30:33,371 log 14564 16880 Not Found: /sem3/sem2_task1/author_forms/
+WARNING 2023-08-11 10:30:33,372 basehttp 14564 16880 "GET /sem3/sem2_task1/author_forms/ HTTP/1.1" 404 3629
+WARNING 2023-08-11 10:30:34,248 log 14564 16880 Not Found: /sem3/sem2_task1/author_forms/
+WARNING 2023-08-11 10:30:34,249 basehttp 14564 16880 "GET /sem3/sem2_task1/author_forms/ HTTP/1.1" 404 3629
+WARNING 2023-08-11 10:30:35,301 log 14564 16880 Not Found: /sem3/sem2_task1/author_forms/
+WARNING 2023-08-11 10:30:35,302 basehttp 14564 16880 "GET /sem3/sem2_task1/author_forms/ HTTP/1.1" 404 3629
+WARNING 2023-08-11 10:31:27,593 log 14564 16880 Not Found: /sem3/sem2_task1/author_forms/
+WARNING 2023-08-11 10:31:27,594 basehttp 14564 16880 "GET /sem3/sem2_task1/author_forms/ HTTP/1.1" 404 3629
+INFO 2023-08-11 10:31:40,997 autoreload 11832 18736 Watching for file changes with StatReloader
+WARNING 2023-08-11 10:31:42,969 log 11832 11508 Not Found: /sem3/sem2_task1/author_forms/
+WARNING 2023-08-11 10:31:42,970 basehttp 11832 11508 "GET /sem3/sem2_task1/author_forms/ HTTP/1.1" 404 3629
+WARNING 2023-08-11 10:31:43,681 log 11832 11508 Not Found: /sem3/sem2_task1/author_forms/
+WARNING 2023-08-11 10:31:43,681 basehttp 11832 11508 "GET /sem3/sem2_task1/author_forms/ HTTP/1.1" 404 3629
+WARNING 2023-08-11 10:35:30,471 log 11832 11508 Not Found: /em2_task1/author_forms/
+WARNING 2023-08-11 10:35:30,472 basehttp 11832 11508 "GET /em2_task1/author_forms/ HTTP/1.1" 404 2948
+ERROR 2023-08-11 10:35:36,946 log 11832 11508 Internal Server Error: /sem2_task1/author_forms/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 45, in add_author
+    return render(request=request, template_name='author_forms/author_forms.html', context={'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: author_forms/author_forms.html
+ERROR 2023-08-11 10:35:36,955 basehttp 11832 11508 "GET /sem2_task1/author_forms/ HTTP/1.1" 500 84587
+INFO 2023-08-11 10:39:44,084 autoreload 11832 18736 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 10:39:45,363 autoreload 1860 3068 Watching for file changes with StatReloader
+ERROR 2023-08-11 10:39:45,819 log 1860 13712 Internal Server Error: /sem2_task1/author_forms/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 45, in add_author
+    return render(request=request, template_name='sem2_task1/author_forms.html', context={'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\utils.py", line 84, in as_p
+    return self.render(self.template_name_p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\utils.py", line 67, in render
+    context = context or self.get_context()
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\forms.py", line 325, in get_context
+    if bf.is_hidden:
+       ^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\boundfield.py", line 235, in is_hidden
+    return self.field.widget.is_hidden
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DateField' object has no attribute 'is_hidden'
+ERROR 2023-08-11 10:39:45,838 basehttp 1860 13712 "GET /sem2_task1/author_forms/ HTTP/1.1" 500 181458
+ERROR 2023-08-11 10:57:17,940 log 1860 22648 Internal Server Error: /sem2_task1/author_forms/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 45, in add_author
+    return render(request=request, template_name='sem2_task1/author_forms.html', context={'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\utils.py", line 84, in as_p
+    return self.render(self.template_name_p)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\utils.py", line 67, in render
+    context = context or self.get_context()
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\forms.py", line 325, in get_context
+    if bf.is_hidden:
+       ^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\boundfield.py", line 235, in is_hidden
+    return self.field.widget.is_hidden
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DateField' object has no attribute 'is_hidden'
+ERROR 2023-08-11 10:57:17,952 basehttp 1860 22648 "GET /sem2_task1/author_forms/ HTTP/1.1" 500 181458
+INFO 2023-08-11 11:00:35,263 autoreload 1860 3068 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 11:00:36,876 autoreload 15116 10908 Watching for file changes with StatReloader
+INFO 2023-08-11 11:00:37,419 basehttp 15116 23560 "GET /sem2_task1/author_forms/ HTTP/1.1" 200 1170
+ERROR 2023-08-11 11:01:00,437 log 15116 23560 Internal Server Error: /sem2_task1/author_forms/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 35, in add_author
+    name = form.cleaned_data.get('name')
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'AuthorForms' object has no attribute 'cleaned_data'
+ERROR 2023-08-11 11:01:00,442 basehttp 15116 23560 "POST /sem2_task1/author_forms/ HTTP/1.1" 500 69965
+INFO 2023-08-11 11:06:44,575 autoreload 15116 10908 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 11:06:46,007 autoreload 3800 2924 Watching for file changes with StatReloader
+INFO 2023-08-11 11:13:16,379 basehttp 3800 2980 "GET /sem2_task1/author_forms/ HTTP/1.1" 200 1170
+ERROR 2023-08-11 11:13:29,263 log 3800 2980 Internal Server Error: /sem2_task1/author_forms/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 35, in add_author
+    name = form.cleaned_data.get('name')
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'AuthorForms' object has no attribute 'cleaned_data'
+ERROR 2023-08-11 11:13:29,266 basehttp 3800 2980 "POST /sem2_task1/author_forms/ HTTP/1.1" 500 69965
+INFO 2023-08-11 11:58:13,362 autoreload 3800 2924 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 11:58:14,118 autoreload 25744 9756 Watching for file changes with StatReloader
+INFO 2023-08-11 11:58:16,187 basehttp 25744 26664 "GET /sem2_task1/author_forms/ HTTP/1.1" 200 1170
+ERROR 2023-08-11 11:58:24,841 log 25744 26664 Internal Server Error: /sem2_task1/author_forms/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 35, in add_author
+    name = form.cleaned_data.get('name')
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'AuthorForms' object has no attribute 'cleaned_data'
+ERROR 2023-08-11 11:58:24,845 basehttp 25744 26664 "POST /sem2_task1/author_forms/ HTTP/1.1" 500 69995
+INFO 2023-08-11 11:59:13,736 autoreload 25744 9756 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 11:59:14,590 autoreload 22884 7048 Watching for file changes with StatReloader
+ERROR 2023-08-11 11:59:18,060 log 22884 19540 Internal Server Error: /sem2_task1/author_forms/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 36, in add_author
+    name = form.cleaned_data.get('name')
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'AuthorForms' object has no attribute 'cleaned_data'
+ERROR 2023-08-11 11:59:18,063 basehttp 22884 19540 "POST /sem2_task1/author_forms/ HTTP/1.1" 500 69995
+INFO 2023-08-11 12:00:26,919 autoreload 22884 7048 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 12:00:27,783 autoreload 12048 21480 Watching for file changes with StatReloader
+INFO 2023-08-11 12:00:30,001 views 12048 11680 New author: Сергей Мандриков kino_mac@mail.ru hkjhjk 2023-08-14
+INFO 2023-08-11 12:00:30,017 basehttp 12048 11680 "POST /sem2_task1/author_forms/ HTTP/1.1" 200 1268
+INFO 2023-08-11 12:00:31,468 views 12048 11680 New author: Сергей Мандриков kino_mac@mail.ru hkjhjk 2023-08-14
+INFO 2023-08-11 12:00:31,472 basehttp 12048 11680 "POST /sem2_task1/author_forms/ HTTP/1.1" 200 1268
+INFO 2023-08-11 12:00:32,703 views 12048 11680 New author: Сергей Мандриков kino_mac@mail.ru hkjhjk 2023-08-14
+INFO 2023-08-11 12:00:32,706 basehttp 12048 11680 "POST /sem2_task1/author_forms/ HTTP/1.1" 200 1268
+INFO 2023-08-11 12:11:50,740 autoreload 12048 21480 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:11:51,573 autoreload 25224 24124 Watching for file changes with StatReloader
+INFO 2023-08-11 12:14:06,075 autoreload 25224 24124 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:14:06,857 autoreload 13652 10096 Watching for file changes with StatReloader
+INFO 2023-08-11 12:14:12,797 autoreload 13652 10096 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:14:13,554 autoreload 24688 25988 Watching for file changes with StatReloader
+INFO 2023-08-11 12:14:18,439 autoreload 24688 25988 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:14:19,225 autoreload 24948 23512 Watching for file changes with StatReloader
+INFO 2023-08-11 12:14:34,314 autoreload 24948 23512 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:14:35,263 autoreload 14368 2572 Watching for file changes with StatReloader
+INFO 2023-08-11 12:14:47,171 autoreload 14368 2572 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:14:47,959 autoreload 17588 24780 Watching for file changes with StatReloader
+INFO 2023-08-11 12:15:01,950 autoreload 17588 24780 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:15:02,703 autoreload 26084 21016 Watching for file changes with StatReloader
+INFO 2023-08-11 12:15:25,181 autoreload 26084 21016 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:15:26,072 autoreload 16048 18184 Watching for file changes with StatReloader
+INFO 2023-08-11 12:15:54,959 autoreload 16048 18184 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:15:55,779 autoreload 25740 20904 Watching for file changes with StatReloader
+INFO 2023-08-11 12:16:01,386 autoreload 25740 20904 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:16:02,099 autoreload 25524 25172 Watching for file changes with StatReloader
+INFO 2023-08-11 12:16:13,991 autoreload 25524 25172 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:16:14,700 autoreload 23040 6180 Watching for file changes with StatReloader
+INFO 2023-08-11 12:16:27,739 autoreload 23040 6180 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:16:28,522 autoreload 22036 22704 Watching for file changes with StatReloader
+INFO 2023-08-11 12:16:41,488 autoreload 22036 22704 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:16:42,231 autoreload 22136 26504 Watching for file changes with StatReloader
+INFO 2023-08-11 12:18:43,433 autoreload 22136 26504 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:18:44,219 autoreload 16164 24200 Watching for file changes with StatReloader
+INFO 2023-08-11 12:19:26,677 autoreload 16164 24200 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:19:27,479 autoreload 25800 23636 Watching for file changes with StatReloader
+INFO 2023-08-11 12:19:37,610 autoreload 25800 23636 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:19:38,364 autoreload 2332 10008 Watching for file changes with StatReloader
+INFO 2023-08-11 12:20:45,720 autoreload 2332 10008 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:20:46,473 autoreload 1212 10136 Watching for file changes with StatReloader
+INFO 2023-08-11 12:20:57,341 autoreload 1212 10136 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:20:58,162 autoreload 26980 27360 Watching for file changes with StatReloader
+INFO 2023-08-11 12:21:48,377 autoreload 26980 27360 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:21:49,176 autoreload 18184 26332 Watching for file changes with StatReloader
+INFO 2023-08-11 12:22:25,612 autoreload 18184 26332 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\forms.py changed, reloading.
+INFO 2023-08-11 12:22:26,367 autoreload 6976 26656 Watching for file changes with StatReloader
+INFO 2023-08-11 13:05:25,338 autoreload 17496 13008 Watching for file changes with StatReloader
+INFO 2023-08-11 13:05:31,448 basehttp 17496 21332 "GET / HTTP/1.1" 200 11
+WARNING 2023-08-11 13:05:32,228 log 17496 21332 Not Found: /favicon.ico
+WARNING 2023-08-11 13:05:32,230 basehttp 17496 21332 "GET /favicon.ico HTTP/1.1" 404 2912
+INFO 2023-08-11 13:05:38,090 basehttp 17496 21332 "GET / HTTP/1.1" 200 11
+INFO 2023-08-11 13:05:44,284 basehttp 17496 21332 "GET /sem2_task1/articles/11/ HTTP/1.1" 200 635
+INFO 2023-08-11 13:05:59,458 basehttp 17496 21332 "GET /sem2_task1/article_forms/ HTTP/1.1" 200 1725
+ERROR 2023-08-11 13:08:34,135 log 17496 21332 Internal Server Error: /sem2_task1/article_forms/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py", line 58, in add_article
+    logger.info(f'New article: {title} {content} {author} {category} {birthday}')
+                                                                      ^^^^^^^^
+NameError: name 'birthday' is not defined
+ERROR 2023-08-11 13:08:34,139 basehttp 17496 21332 "POST /sem2_task1/article_forms/ HTTP/1.1" 500 70234
+INFO 2023-08-11 13:08:59,567 autoreload 17496 13008 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 13:09:00,560 autoreload 20000 17044 Watching for file changes with StatReloader
+INFO 2023-08-11 13:09:09,636 views 20000 26064 New article: gtrgtr thtrehe Author object (14) ethrt
+INFO 2023-08-11 13:09:09,659 basehttp 20000 26064 "POST /sem2_task1/article_forms/ HTTP/1.1" 200 1761
+INFO 2023-08-11 13:09:11,386 views 20000 26064 New article: gtrgtr thtrehe Author object (14) ethrt
+INFO 2023-08-11 13:09:11,390 basehttp 20000 26064 "POST /sem2_task1/article_forms/ HTTP/1.1" 200 1761
+INFO 2023-08-11 13:11:15,054 autoreload 20000 17044 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 13:11:15,899 autoreload 11496 24500 Watching for file changes with StatReloader
+INFO 2023-08-11 13:11:59,469 autoreload 11496 24500 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 13:12:00,332 autoreload 24740 11492 Watching for file changes with StatReloader
+INFO 2023-08-11 13:12:07,471 autoreload 24740 11492 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 13:12:08,326 autoreload 27504 24668 Watching for file changes with StatReloader
+INFO 2023-08-11 13:12:16,539 autoreload 27504 24668 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 13:12:17,315 autoreload 25132 25136 Watching for file changes with StatReloader
+INFO 2023-08-11 13:12:33,984 autoreload 25132 25136 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\views.py changed, reloading.
+INFO 2023-08-11 13:12:35,016 autoreload 13724 13364 Watching for file changes with StatReloader
+INFO 2023-08-11 13:12:38,105 views 13724 24888 New article: gtrgtr False 2023-08-11
+INFO 2023-08-11 13:12:38,129 basehttp 13724 24888 "POST /sem2_task1/article_forms/ HTTP/1.1" 200 1761
+INFO 2023-08-11 13:12:40,463 views 13724 24888 New article: gtrgtr False 2023-08-11
+INFO 2023-08-11 13:12:40,467 basehttp 13724 24888 "POST /sem2_task1/article_forms/ HTTP/1.1" 200 1761
