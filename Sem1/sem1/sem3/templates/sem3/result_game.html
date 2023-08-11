@@ -1,0 +1,12 @@
+{% extends 'sem3/base.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+<ol>
+  {% for attempt in attempts %}
+  <li>{{attempt}}</li>
+  {% endfor %}
+</ol>
+{% endblock %}
