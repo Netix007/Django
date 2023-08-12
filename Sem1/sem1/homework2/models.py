@@ -23,6 +23,7 @@ class Item(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     count = models.IntegerField()
     add_date = models.DateField(auto_now_add=True)
+    picture = models.ImageField(blank=True)
 
     def __str__(self):
         return f'item: {self.name}, description: {self.description}, price: {self.price}, count: {self.count},' \

@@ -6029,3 +6029,823 @@ INFO 2023-08-11 13:12:38,105 views 13724 24888 New article: gtrgtr False 2023-08
 INFO 2023-08-11 13:12:38,129 basehttp 13724 24888 "POST /sem2_task1/article_forms/ HTTP/1.1" 200 1761
 INFO 2023-08-11 13:12:40,463 views 13724 24888 New article: gtrgtr False 2023-08-11
 INFO 2023-08-11 13:12:40,467 basehttp 13724 24888 "POST /sem2_task1/article_forms/ HTTP/1.1" 200 1761
+INFO 2023-08-12 02:15:11,361 autoreload 14520 22824 Watching for file changes with StatReloader
+INFO 2023-08-12 02:16:18,490 autoreload 14520 22824 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 02:16:19,286 autoreload 21896 15608 Watching for file changes with StatReloader
+INFO 2023-08-12 02:16:28,144 basehttp 21896 12920 "GET / HTTP/1.1" 200 11
+WARNING 2023-08-12 02:16:29,206 log 21896 12920 Not Found: /favicon.ico
+WARNING 2023-08-12 02:16:29,207 basehttp 21896 12920 "GET /favicon.ico HTTP/1.1" 404 2912
+ERROR 2023-08-12 02:16:49,075 log 21896 12920 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: edit_item_by_id() got an unexpected keyword argument 'client_id'
+ERROR 2023-08-12 02:16:49,079 basehttp 21896 12920 "GET /homework2/edit_item/17/ HTTP/1.1" 500 64394
+INFO 2023-08-12 02:17:47,022 autoreload 21896 15608 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\urls.py changed, reloading.
+INFO 2023-08-12 02:17:47,909 autoreload 12744 7840 Watching for file changes with StatReloader
+ERROR 2023-08-12 02:17:48,361 log 12744 18048 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 39, in edit_item_by_id
+    form = ItemForms(
+           ^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'name'
+ERROR 2023-08-12 02:17:48,364 basehttp 12744 18048 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68399
+INFO 2023-08-12 02:18:56,476 autoreload 12744 7840 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 02:18:57,360 autoreload 13424 25688 Watching for file changes with StatReloader
+ERROR 2023-08-12 02:18:57,736 log 13424 18748 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 40, in edit_item_by_id
+    name=item.name.get(),
+         ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2023-08-12 02:18:57,739 basehttp 13424 18748 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68420
+INFO 2023-08-12 02:19:58,274 autoreload 13424 25688 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 02:19:59,244 autoreload 13724 17224 Watching for file changes with StatReloader
+ERROR 2023-08-12 02:20:03,606 log 13724 7600 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 39, in edit_item_by_id
+    form = ItemForms(
+           ^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'name'
+ERROR 2023-08-12 02:20:03,609 basehttp 13724 7600 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68399
+INFO 2023-08-12 02:23:47,765 autoreload 13724 17224 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 02:23:48,851 autoreload 2720 6980 Watching for file changes with StatReloader
+ERROR 2023-08-12 02:23:50,498 log 2720 25480 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 40, in edit_item_by_id
+    name=item.name.all(),
+         ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'all'
+ERROR 2023-08-12 02:23:50,502 basehttp 2720 25480 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68420
+INFO 2023-08-12 02:24:27,986 autoreload 2720 6980 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 02:24:28,784 autoreload 19008 14436 Watching for file changes with StatReloader
+ERROR 2023-08-12 02:24:38,018 log 19008 2820 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 39, in edit_item_by_id
+    form = ItemForms(
+           ^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'name'
+ERROR 2023-08-12 02:24:38,022 basehttp 19008 2820 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68399
+INFO 2023-08-12 02:27:13,074 autoreload 19008 14436 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 02:27:14,245 autoreload 14844 5476 Watching for file changes with StatReloader
+ERROR 2023-08-12 02:27:14,696 log 14844 25000 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 40, in edit_item_by_id
+    form = ItemForms(
+           ^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'name'
+ERROR 2023-08-12 02:27:14,701 basehttp 14844 25000 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68409
+INFO 2023-08-12 02:30:22,711 autoreload 14844 5476 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 02:30:23,903 autoreload 17388 14980 Watching for file changes with StatReloader
+INFO 2023-08-12 02:30:25,735 basehttp 17388 1188 "GET /homework2/edit_item/17/ HTTP/1.1" 200 969
+INFO 2023-08-12 02:31:41,774 autoreload 17388 14980 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 02:31:42,718 autoreload 18048 25744 Watching for file changes with StatReloader
+ERROR 2023-08-12 02:34:52,934 log 18048 24796 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 40, in edit_item_by_id
+    form = ItemForms(
+           ^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'name'
+ERROR 2023-08-12 02:34:52,940 basehttp 18048 24796 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68409
+INFO 2023-08-12 02:45:22,385 autoreload 18048 25744 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 02:45:23,494 autoreload 14920 19172 Watching for file changes with StatReloader
+ERROR 2023-08-12 02:45:25,012 log 14920 14864 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 40, in edit_item_by_id
+    form = ItemForms(
+           ^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'name'
+ERROR 2023-08-12 02:45:25,016 basehttp 14920 14864 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68414
+INFO 2023-08-12 03:17:01,324 autoreload 14920 19172 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 03:17:02,457 autoreload 24748 4968 Watching for file changes with StatReloader
+INFO 2023-08-12 03:18:12,432 autoreload 24748 4968 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 03:18:13,519 autoreload 14480 25476 Watching for file changes with StatReloader
+INFO 2023-08-12 03:23:46,650 autoreload 14480 25476 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 03:23:47,751 autoreload 26404 9084 Watching for file changes with StatReloader
+INFO 2023-08-12 03:23:50,933 basehttp 26404 15760 "GET /homework2/edit_item/17/ HTTP/1.1" 200 6618
+INFO 2023-08-12 03:29:52,899 autoreload 26404 9084 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:29:54,085 autoreload 13648 26320 Watching for file changes with StatReloader
+ERROR 2023-08-12 03:29:56,762 log 13648 7828 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 40, in edit_item_by_id
+    form = ItemForms(instance=item
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'instance'
+ERROR 2023-08-12 03:29:56,766 basehttp 13648 7828 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68464
+INFO 2023-08-12 03:32:42,765 autoreload 13648 26320 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:32:44,199 autoreload 5288 12300 Watching for file changes with StatReloader
+ERROR 2023-08-12 03:32:44,628 log 5288 26220 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 40, in edit_item_by_id
+    form = ItemForms(instance=item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'instance'
+ERROR 2023-08-12 03:32:44,632 basehttp 5288 26220 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68516
+ERROR 2023-08-12 03:32:45,563 log 5288 26220 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 40, in edit_item_by_id
+    form = ItemForms(instance=item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'instance'
+ERROR 2023-08-12 03:32:45,567 basehttp 5288 26220 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68516
+ERROR 2023-08-12 03:32:46,623 log 5288 26220 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 40, in edit_item_by_id
+    form = ItemForms(instance=item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'instance'
+ERROR 2023-08-12 03:32:46,626 basehttp 5288 26220 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68516
+ERROR 2023-08-12 03:32:47,652 log 5288 26220 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 40, in edit_item_by_id
+    form = ItemForms(instance=item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'instance'
+ERROR 2023-08-12 03:32:47,655 basehttp 5288 26220 "GET /homework2/edit_item/17/ HTTP/1.1" 500 68516
+INFO 2023-08-12 03:36:50,382 autoreload 5288 12300 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 03:36:51,625 autoreload 18752 12896 Watching for file changes with StatReloader
+INFO 2023-08-12 03:37:06,773 autoreload 18752 12896 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:37:07,570 autoreload 14836 19360 Watching for file changes with StatReloader
+INFO 2023-08-12 03:37:29,414 autoreload 14836 19360 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:37:30,454 autoreload 20768 23000 Watching for file changes with StatReloader
+INFO 2023-08-12 03:37:32,288 basehttp 20768 24900 "GET /homework2/edit_item/17/ HTTP/1.1" 200 544
+INFO 2023-08-12 03:44:19,194 autoreload 20768 23000 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:44:20,368 autoreload 14144 14520 Watching for file changes with StatReloader
+INFO 2023-08-12 03:44:21,555 basehttp 14144 8216 "GET /homework2/edit_item/17/ HTTP/1.1" 200 544
+INFO 2023-08-12 03:44:30,075 autoreload 14144 14520 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 03:44:31,052 autoreload 14168 9916 Watching for file changes with StatReloader
+INFO 2023-08-12 03:44:31,266 basehttp 14168 18556 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1047
+INFO 2023-08-12 03:44:47,298 basehttp 14168 18556 "POST /homework2/edit_item/17/ HTTP/1.1" 200 1047
+INFO 2023-08-12 03:45:22,458 autoreload 14168 9916 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:45:23,511 autoreload 14268 14140 Watching for file changes with StatReloader
+INFO 2023-08-12 03:45:52,246 autoreload 14268 14140 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:45:53,199 autoreload 24680 19052 Watching for file changes with StatReloader
+INFO 2023-08-12 03:46:33,909 autoreload 24680 19052 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:46:34,797 autoreload 8176 24020 Watching for file changes with StatReloader
+INFO 2023-08-12 03:47:39,155 autoreload 8176 24020 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:47:40,752 autoreload 15072 19056 Watching for file changes with StatReloader
+INFO 2023-08-12 03:48:42,320 autoreload 15072 19056 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:48:43,976 autoreload 6148 11384 Watching for file changes with StatReloader
+INFO 2023-08-12 03:49:06,133 autoreload 6148 11384 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:49:07,639 autoreload 17816 7740 Watching for file changes with StatReloader
+INFO 2023-08-12 03:49:53,656 autoreload 17816 7740 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:49:55,200 autoreload 5916 20832 Watching for file changes with StatReloader
+INFO 2023-08-12 03:50:59,238 autoreload 5916 20832 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:51:00,765 autoreload 22472 6288 Watching for file changes with StatReloader
+INFO 2023-08-12 03:51:23,998 autoreload 22472 6288 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:51:25,529 autoreload 9756 26160 Watching for file changes with StatReloader
+INFO 2023-08-12 03:52:29,965 autoreload 9756 26160 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:52:31,555 autoreload 22880 12144 Watching for file changes with StatReloader
+INFO 2023-08-12 03:53:53,829 autoreload 22880 12144 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 03:53:55,504 autoreload 16160 22504 Watching for file changes with StatReloader
+ERROR 2023-08-12 03:54:47,073 log 16160 26160 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 43, in edit_item_by_id
+    item.name = form.cleaned_data('name')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict' object is not callable
+ERROR 2023-08-12 03:54:47,078 basehttp 16160 26160 "POST /homework2/edit_item/17/ HTTP/1.1" 500 70068
+ERROR 2023-08-12 03:54:51,944 log 16160 26160 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 43, in edit_item_by_id
+    item.name = form.cleaned_data('name')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict' object is not callable
+ERROR 2023-08-12 03:54:51,948 basehttp 16160 26160 "POST /homework2/edit_item/17/ HTTP/1.1" 500 70068
+INFO 2023-08-12 03:54:55,674 basehttp 16160 26160 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1047
+ERROR 2023-08-12 03:55:16,328 log 16160 26160 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 43, in edit_item_by_id
+    item.name = form.cleaned_data('name')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict' object is not callable
+ERROR 2023-08-12 03:55:16,332 basehttp 16160 26160 "POST /homework2/edit_item/17/ HTTP/1.1" 500 70068
+INFO 2023-08-12 10:09:12,526 autoreload 22488 15664 Watching for file changes with StatReloader
+INFO 2023-08-12 10:09:18,406 basehttp 22488 16096 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1047
+WARNING 2023-08-12 10:09:18,971 log 22488 16096 Not Found: /favicon.ico
+WARNING 2023-08-12 10:09:18,976 basehttp 22488 16096 "GET /favicon.ico HTTP/1.1" 404 2912
+ERROR 2023-08-12 10:09:20,553 log 22488 16096 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 44, in edit_item_by_id
+    item.name = form.cleaned_data('name')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'dict' object is not callable
+ERROR 2023-08-12 10:09:20,556 basehttp 22488 16096 "POST /homework2/edit_item/17/ HTTP/1.1" 500 70121
+INFO 2023-08-12 10:11:49,838 autoreload 22488 15664 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 10:11:51,017 autoreload 3844 3492 Watching for file changes with StatReloader
+INFO 2023-08-12 10:11:51,904 basehttp 3844 15996 "POST /homework2/edit_item/17/ HTTP/1.1" 200 18
+INFO 2023-08-12 10:11:55,507 basehttp 3844 15996 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1047
+INFO 2023-08-12 10:12:05,306 basehttp 3844 15996 "POST /homework2/edit_item/17/ HTTP/1.1" 200 18
+INFO 2023-08-12 10:12:07,799 basehttp 3844 15996 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1046
+INFO 2023-08-12 10:12:15,869 basehttp 3844 15996 "POST /homework2/edit_item/17/ HTTP/1.1" 200 18
+INFO 2023-08-12 10:12:17,851 basehttp 3844 15996 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1047
+INFO 2023-08-12 10:12:58,102 autoreload 3844 3492 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 10:12:59,133 autoreload 17700 14568 Watching for file changes with StatReloader
+WARNING 2023-08-12 10:13:04,551 log 17700 11080 Not Found: /homework2/edit_item/170/
+WARNING 2023-08-12 10:13:04,554 basehttp 17700 11080 "GET /homework2/edit_item/170/ HTTP/1.1" 404 3433
+INFO 2023-08-12 11:09:40,960 autoreload 14848 168 Watching for file changes with StatReloader
+INFO 2023-08-12 11:09:46,789 basehttp 14848 11064 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1047
+INFO 2023-08-12 11:14:36,675 autoreload 14848 168 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 11:14:37,914 autoreload 6284 3252 Watching for file changes with StatReloader
+INFO 2023-08-12 11:14:55,605 autoreload 6284 3252 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 11:14:56,556 autoreload 13788 1536 Watching for file changes with StatReloader
+ERROR 2023-08-12 11:15:12,244 log 13788 1804 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 59, in edit_item_by_id
+    context={'form': form, 'item_id': item_id, 'item_url': item.picture.url}
+                                                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'picture' attribute has no file associated with it.
+ERROR 2023-08-12 11:15:12,248 basehttp 13788 1804 "GET /homework2/edit_item/17/ HTTP/1.1" 500 75579
+ERROR 2023-08-12 11:15:13,319 log 13788 1804 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 59, in edit_item_by_id
+    context={'form': form, 'item_id': item_id, 'item_url': item.picture.url}
+                                                           ^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'picture' attribute has no file associated with it.
+ERROR 2023-08-12 11:15:13,321 basehttp 13788 1804 "GET /homework2/edit_item/17/ HTTP/1.1" 500 75579
+INFO 2023-08-12 11:15:45,132 autoreload 13788 1536 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 11:15:46,135 autoreload 1552 10744 Watching for file changes with StatReloader
+ERROR 2023-08-12 11:15:46,441 log 1552 12108 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 56, in edit_item_by_id
+    return render(
+           ^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'picture' attribute has no file associated with it.
+ERROR 2023-08-12 11:15:46,450 basehttp 1552 12108 "GET /homework2/edit_item/17/ HTTP/1.1" 500 137338
+ERROR 2023-08-12 11:15:47,429 log 1552 12108 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 56, in edit_item_by_id
+    return render(
+           ^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'picture' attribute has no file associated with it.
+ERROR 2023-08-12 11:15:47,436 basehttp 1552 12108 "GET /homework2/edit_item/17/ HTTP/1.1" 500 137338
+ERROR 2023-08-12 11:15:48,727 log 1552 12108 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 880, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 56, in edit_item_by_id
+    return render(
+           ^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\fields\files.py", line 66, in url
+    self._require_file()
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\fields\files.py", line 41, in _require_file
+    raise ValueError(
+ValueError: The 'picture' attribute has no file associated with it.
+ERROR 2023-08-12 11:15:48,733 basehttp 1552 12108 "GET /homework2/edit_item/17/ HTTP/1.1" 500 137338
+INFO 2023-08-12 11:16:00,997 basehttp 1552 12108 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1064
+INFO 2023-08-12 11:16:29,276 basehttp 1552 12108 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1064
+INFO 2023-08-12 11:17:00,781 autoreload 1552 10744 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 11:17:01,797 autoreload 16944 19504 Watching for file changes with StatReloader
+INFO 2023-08-12 11:17:33,196 autoreload 16944 19504 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 11:17:34,101 autoreload 23776 25364 Watching for file changes with StatReloader
+INFO 2023-08-12 11:17:45,127 autoreload 23776 25364 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 11:17:45,979 autoreload 24428 15132 Watching for file changes with StatReloader
+INFO 2023-08-12 11:18:01,015 autoreload 24428 15132 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 11:18:01,896 autoreload 2976 188 Watching for file changes with StatReloader
+INFO 2023-08-12 11:18:14,154 autoreload 2976 188 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 11:18:15,064 autoreload 18044 25172 Watching for file changes with StatReloader
+INFO 2023-08-12 11:18:29,340 autoreload 18044 25172 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 11:18:30,200 autoreload 20544 17788 Watching for file changes with StatReloader
+INFO 2023-08-12 11:18:41,174 autoreload 20544 17788 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 11:18:41,980 autoreload 15736 19144 Watching for file changes with StatReloader
+INFO 2023-08-12 11:18:51,972 autoreload 15736 19144 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 11:18:52,852 autoreload 12648 21920 Watching for file changes with StatReloader
+INFO 2023-08-12 11:19:04,371 autoreload 12648 21920 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\forms.py changed, reloading.
+INFO 2023-08-12 11:19:05,297 autoreload 22540 17788 Watching for file changes with StatReloader
+INFO 2023-08-12 11:20:46,307 autoreload 22540 17788 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 11:20:47,557 autoreload 26548 24404 Watching for file changes with StatReloader
+INFO 2023-08-12 11:33:47,174 autoreload 19596 2260 Watching for file changes with StatReloader
+WARNING 2023-08-12 11:34:01,428 log 19596 24932 Not Found: /homework2/upload_image
+WARNING 2023-08-12 11:34:01,429 basehttp 19596 24932 "GET /homework2/upload_image HTTP/1.1" 404 3455
+WARNING 2023-08-12 11:34:08,424 log 19596 24932 Not Found: /homework2/upload
+WARNING 2023-08-12 11:34:08,425 basehttp 19596 24932 "GET /homework2/upload HTTP/1.1" 404 3437
+INFO 2023-08-12 11:34:41,225 autoreload 19596 2260 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\urls.py changed, reloading.
+INFO 2023-08-12 11:34:42,183 autoreload 18540 20176 Watching for file changes with StatReloader
+WARNING 2023-08-12 11:34:42,847 log 18540 5096 Not Found: /homework2/upload
+WARNING 2023-08-12 11:34:42,848 basehttp 18540 5096 "GET /homework2/upload HTTP/1.1" 404 3428
+INFO 2023-08-12 11:34:52,610 autoreload 18540 20176 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\urls.py changed, reloading.
+INFO 2023-08-12 11:34:53,582 autoreload 26488 23616 Watching for file changes with StatReloader
+INFO 2023-08-12 11:34:54,030 basehttp 26488 23580 "GET /homework2/upload HTTP/1.1" 301 0
+INFO 2023-08-12 11:34:54,054 basehttp 26488 24940 "GET /homework2/upload/ HTTP/1.1" 200 587
+INFO 2023-08-12 11:36:39,082 basehttp 26488 24940 "POST /homework2/upload/ HTTP/1.1" 200 587
+INFO 2023-08-12 11:37:45,337 basehttp 26488 24940 "POST /homework2/upload/ HTTP/1.1" 200 587
+INFO 2023-08-12 11:38:04,303 basehttp 26488 24940 "POST /homework2/upload/ HTTP/1.1" 200 587
+INFO 2023-08-12 11:40:11,363 autoreload 26488 23616 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\urls.py changed, reloading.
+INFO 2023-08-12 11:40:12,703 autoreload 17644 19528 Watching for file changes with StatReloader
+INFO 2023-08-12 11:40:17,181 basehttp 17644 20780 "GET /homework2/upload/17 HTTP/1.1" 301 0
+INFO 2023-08-12 11:40:17,216 basehttp 17644 10604 "GET /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 11:40:22,898 basehttp 17644 10604 "POST /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 11:41:53,081 autoreload 17644 19528 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 11:41:54,434 autoreload 25192 19372 Watching for file changes with StatReloader
+INFO 2023-08-12 11:42:36,548 autoreload 25192 19372 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 11:42:37,594 autoreload 17664 18892 Watching for file changes with StatReloader
+INFO 2023-08-12 11:46:36,532 basehttp 17664 12396 "GET /homework2/upload/17/ HTTP/1.1" 200 590
+ERROR 2023-08-12 11:46:49,002 log 17664 12396 Internal Server Error: /homework2/upload/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 73, in upload_image
+    item.picture = image.url
+                   ^^^^^^^^^
+AttributeError: 'InMemoryUploadedFile' object has no attribute 'url'
+ERROR 2023-08-12 11:46:49,007 basehttp 17664 12396 "POST /homework2/upload/17/ HTTP/1.1" 500 70075
+INFO 2023-08-12 11:47:03,104 autoreload 17664 18892 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 11:47:04,498 autoreload 4888 20324 Watching for file changes with StatReloader
+INFO 2023-08-12 11:47:05,028 basehttp 4888 26296 "GET /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 11:47:09,495 basehttp 4888 26296 "POST /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 11:47:38,332 autoreload 4888 20324 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 11:47:39,199 autoreload 24304 24616 Watching for file changes with StatReloader
+INFO 2023-08-12 11:47:42,032 basehttp 24304 3088 "POST /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 11:47:48,645 basehttp 24304 3088 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1088
+WARNING 2023-08-12 11:47:48,727 log 24304 3088 Not Found: /homework2/edit_item/17/sony.9e40e8c_tCnet16.png
+WARNING 2023-08-12 11:47:48,728 basehttp 24304 3088 "GET /homework2/edit_item/17/sony.9e40e8c_tCnet16.png HTTP/1.1" 404 3540
+INFO 2023-08-12 11:47:52,895 basehttp 24304 3088 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1088
+WARNING 2023-08-12 11:47:52,947 log 24304 3088 Not Found: /homework2/edit_item/17/sony.9e40e8c_tCnet16.png
+WARNING 2023-08-12 11:47:52,948 basehttp 24304 3088 "GET /homework2/edit_item/17/sony.9e40e8c_tCnet16.png HTTP/1.1" 404 3540
+INFO 2023-08-12 12:03:28,203 autoreload 24304 24616 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 12:03:29,437 autoreload 26536 25080 Watching for file changes with StatReloader
+INFO 2023-08-12 12:03:40,041 basehttp 26536 9744 "GET /homework2/upload/17/ HTTP/1.1" 200 590
+ERROR 2023-08-12 12:03:46,513 log 26536 9744 Internal Server Error: /homework2/upload/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 73, in upload_image
+    item.picture = obj.name
+                   ^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+ERROR 2023-08-12 12:03:46,516 basehttp 26536 9744 "POST /homework2/upload/17/ HTTP/1.1" 500 70339
+INFO 2023-08-12 12:04:39,485 autoreload 26536 25080 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 12:04:40,537 autoreload 19680 12408 Watching for file changes with StatReloader
+INFO 2023-08-12 12:04:44,065 basehttp 19680 17336 "POST /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 12:04:48,321 basehttp 19680 17336 "POST /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 12:04:54,076 basehttp 19680 17336 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1088
+WARNING 2023-08-12 12:04:54,155 log 19680 17336 Not Found: /homework2/edit_item/17/sony.9e40e8c_YRCkoLm.png
+WARNING 2023-08-12 12:04:54,156 basehttp 19680 17336 "GET /homework2/edit_item/17/sony.9e40e8c_YRCkoLm.png HTTP/1.1" 404 3540
+INFO 2023-08-12 12:04:55,749 basehttp 19680 17336 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1088
+WARNING 2023-08-12 12:04:55,809 log 19680 17336 Not Found: /homework2/edit_item/17/sony.9e40e8c_YRCkoLm.png
+WARNING 2023-08-12 12:04:55,810 basehttp 19680 17336 "GET /homework2/edit_item/17/sony.9e40e8c_YRCkoLm.png HTTP/1.1" 404 3540
+INFO 2023-08-12 12:42:09,098 basehttp 19680 4144 "GET /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 12:42:15,606 basehttp 19680 4144 "POST /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 12:42:26,099 basehttp 19680 4144 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1080
+WARNING 2023-08-12 12:42:26,157 log 19680 4144 Not Found: /homework2/edit_item/17/sony.9e40e8c.png
+WARNING 2023-08-12 12:42:26,159 basehttp 19680 4144 "GET /homework2/edit_item/17/sony.9e40e8c.png HTTP/1.1" 404 3516
+INFO 2023-08-12 12:51:41,773 basehttp 19680 11684 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1087
+INFO 2023-08-12 12:51:45,922 basehttp 19680 11684 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1087
+WARNING 2023-08-12 12:51:45,965 log 19680 11684 Not Found: /media/sony.9e40e8c.png
+WARNING 2023-08-12 12:51:45,966 basehttp 19680 11684 "GET /media/sony.9e40e8c.png HTTP/1.1" 404 2945
+INFO 2023-08-12 12:51:48,326 basehttp 19680 11684 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1087
+WARNING 2023-08-12 12:51:48,376 log 19680 11684 Not Found: /media/sony.9e40e8c.png
+WARNING 2023-08-12 12:51:48,377 basehttp 19680 11684 "GET /media/sony.9e40e8c.png HTTP/1.1" 404 2945
+INFO 2023-08-12 12:51:50,554 basehttp 19680 11684 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1087
+WARNING 2023-08-12 12:51:50,598 log 19680 11684 Not Found: /media/sony.9e40e8c.png
+WARNING 2023-08-12 12:51:50,599 basehttp 19680 11684 "GET /media/sony.9e40e8c.png HTTP/1.1" 404 2945
+WARNING 2023-08-12 12:52:18,048 log 19680 11684 Not Found: /media/sony.9e40e8c.png
+WARNING 2023-08-12 12:52:18,048 basehttp 19680 11684 "GET /media/sony.9e40e8c.png HTTP/1.1" 404 2945
+INFO 2023-08-12 12:52:52,120 autoreload 19680 12408 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\urls.py changed, reloading.
+INFO 2023-08-12 12:52:53,722 autoreload 1584 2676 Watching for file changes with StatReloader
+INFO 2023-08-12 12:55:48,652 autoreload 1584 2676 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\urls.py changed, reloading.
+INFO 2023-08-12 12:55:49,378 autoreload 15536 25344 Watching for file changes with StatReloader
+INFO 2023-08-12 12:55:56,353 autoreload 15536 25344 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\urls.py changed, reloading.
+INFO 2023-08-12 12:55:57,210 autoreload 23384 11916 Watching for file changes with StatReloader
+INFO 2023-08-12 12:58:13,262 autoreload 23384 11916 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\urls.py changed, reloading.
+INFO 2023-08-12 12:58:14,054 autoreload 20964 18260 Watching for file changes with StatReloader
+WARNING 2023-08-12 12:58:50,515 log 20964 25260 Not Found: /media/sony.9e40e8c.png
+WARNING 2023-08-12 12:58:50,516 basehttp 20964 25260 "GET /media/sony.9e40e8c.png HTTP/1.1" 404 2945
+ERROR 2023-08-12 12:58:57,177 log 20964 25260 Internal Server Error: /homework2/edit_item/17/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py", line 58, in edit_item_by_id
+    return render(
+           ^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\templatetags\static.py", line 171, in do_static
+    return StaticNode.handle_token(parser, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\templatetags\static.py", line 145, in handle_token
+    path = parser.compile_filter(bits[1])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '{{' from '{{'
+ERROR 2023-08-12 12:58:57,184 basehttp 20964 25260 "GET /homework2/edit_item/17/ HTTP/1.1" 500 153679
+INFO 2023-08-12 12:59:24,838 basehttp 20964 25260 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1099
+WARNING 2023-08-12 12:59:24,884 basehttp 20964 25260 "GET /static/media/sony.9e40e8c.png HTTP/1.1" 404 1825
+WARNING 2023-08-12 13:00:33,912 basehttp 20964 2896 "GET /static/media/sony.9e40e8c.png HTTP/1.1" 404 1825
+WARNING 2023-08-12 13:00:41,482 log 20964 25132 Not Found: /media/sony.9e40e8c.png
+WARNING 2023-08-12 13:00:41,483 basehttp 20964 25132 "GET /media/sony.9e40e8c.png HTTP/1.1" 404 2945
+WARNING 2023-08-12 13:01:08,927 log 20964 25132 Not Found: /media/sony.9e40e8c.png
+WARNING 2023-08-12 13:01:08,928 basehttp 20964 25132 "GET /media/sony.9e40e8c.png HTTP/1.1" 404 2945
+WARNING 2023-08-12 13:04:49,588 log 20964 25132 Not Found: /media/sony.9e40e8c.png
+WARNING 2023-08-12 13:04:49,589 basehttp 20964 25132 "GET /media/sony.9e40e8c.png HTTP/1.1" 404 2945
+INFO 2023-08-12 13:05:01,456 basehttp 20964 25132 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1087
+WARNING 2023-08-12 13:05:01,513 log 20964 25132 Not Found: /media/sony.9e40e8c.png
+WARNING 2023-08-12 13:05:01,515 basehttp 20964 25132 "GET /media/sony.9e40e8c.png HTTP/1.1" 404 2945
+WARNING 2023-08-12 13:05:45,186 log 20964 25132 Not Found: /media/sony.9e40e8c.png
+WARNING 2023-08-12 13:05:45,188 basehttp 20964 25132 "GET /media/sony.9e40e8c.png HTTP/1.1" 404 2945
+INFO 2023-08-12 13:09:33,228 autoreload 20964 18260 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem1\urls.py changed, reloading.
+INFO 2023-08-12 13:09:34,375 autoreload 23048 23700 Watching for file changes with StatReloader
+INFO 2023-08-12 13:10:11,085 autoreload 23048 23700 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem1\urls.py changed, reloading.
+INFO 2023-08-12 13:10:11,947 autoreload 14644 25612 Watching for file changes with StatReloader
+INFO 2023-08-12 13:11:42,759 autoreload 14644 25612 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 13:11:43,631 autoreload 25172 25052 Watching for file changes with StatReloader
+INFO 2023-08-12 13:12:00,582 autoreload 25172 25052 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 13:12:01,592 autoreload 1580 17652 Watching for file changes with StatReloader
+INFO 2023-08-12 13:12:22,764 basehttp 1580 15328 "GET /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 13:12:26,922 basehttp 1580 15328 "POST /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 13:12:36,799 basehttp 1580 15328 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1101
+WARNING 2023-08-12 13:12:36,868 log 1580 15328 Not Found: /media/media/sony.9e40e8c_oE80tCI.png
+WARNING 2023-08-12 13:12:36,870 basehttp 1580 15328 "GET /media/media/sony.9e40e8c_oE80tCI.png HTTP/1.1" 404 2987
+INFO 2023-08-12 13:13:19,435 basehttp 1580 15328 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+WARNING 2023-08-12 13:13:19,495 log 1580 15328 Not Found: /media/sony.9e40e8c_oE80tCI.png
+WARNING 2023-08-12 13:13:19,497 basehttp 1580 15328 "GET /media/sony.9e40e8c_oE80tCI.png HTTP/1.1" 404 2969
+INFO 2023-08-12 13:13:20,164 basehttp 1580 15328 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+WARNING 2023-08-12 13:13:20,226 log 1580 15328 Not Found: /media/sony.9e40e8c_oE80tCI.png
+WARNING 2023-08-12 13:13:20,227 basehttp 1580 15328 "GET /media/sony.9e40e8c_oE80tCI.png HTTP/1.1" 404 2969
+INFO 2023-08-12 13:13:20,669 basehttp 1580 15328 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+WARNING 2023-08-12 13:13:20,723 log 1580 15328 Not Found: /media/sony.9e40e8c_oE80tCI.png
+WARNING 2023-08-12 13:13:20,725 basehttp 1580 15328 "GET /media/sony.9e40e8c_oE80tCI.png HTTP/1.1" 404 2969
+INFO 2023-08-12 13:13:21,099 basehttp 1580 15328 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+WARNING 2023-08-12 13:13:21,259 log 1580 15328 Not Found: /media/sony.9e40e8c_oE80tCI.png
+WARNING 2023-08-12 13:13:21,261 basehttp 1580 15328 "GET /media/sony.9e40e8c_oE80tCI.png HTTP/1.1" 404 2969
+INFO 2023-08-12 13:13:22,980 basehttp 1580 15328 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+WARNING 2023-08-12 13:13:23,038 log 1580 15328 Not Found: /media/sony.9e40e8c_oE80tCI.png
+WARNING 2023-08-12 13:13:23,038 basehttp 1580 15328 "GET /media/sony.9e40e8c_oE80tCI.png HTTP/1.1" 404 2969
+INFO 2023-08-12 13:13:25,501 basehttp 1580 15328 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+INFO 2023-08-12 13:17:49,552 autoreload 22772 16640 Watching for file changes with StatReloader
+INFO 2023-08-12 13:17:56,024 basehttp 22772 19040 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+INFO 2023-08-12 13:17:57,403 basehttp 22772 19040 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+INFO 2023-08-12 13:17:58,087 basehttp 22772 19040 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+INFO 2023-08-12 13:17:58,693 basehttp 22772 19040 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+INFO 2023-08-12 13:17:59,247 basehttp 22772 19040 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+INFO 2023-08-12 13:17:59,809 basehttp 22772 19040 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+INFO 2023-08-12 13:18:06,492 basehttp 22772 19040 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+WARNING 2023-08-12 13:18:06,567 log 22772 19040 Not Found: /media/sony.9e40e8c_oE80tCI.png
+WARNING 2023-08-12 13:18:06,568 basehttp 22772 19040 "GET /media/sony.9e40e8c_oE80tCI.png HTTP/1.1" 404 2969
+INFO 2023-08-12 13:18:07,509 basehttp 22772 19040 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+WARNING 2023-08-12 13:18:07,574 log 22772 19040 Not Found: /media/sony.9e40e8c_oE80tCI.png
+WARNING 2023-08-12 13:18:07,576 basehttp 22772 19040 "GET /media/sony.9e40e8c_oE80tCI.png HTTP/1.1" 404 2969
+INFO 2023-08-12 13:24:41,989 autoreload 22772 16640 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem1\urls.py changed, reloading.
+INFO 2023-08-12 13:24:43,199 autoreload 16176 10604 Watching for file changes with StatReloader
+INFO 2023-08-12 13:24:58,737 autoreload 16176 10604 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem1\urls.py changed, reloading.
+INFO 2023-08-12 13:24:59,619 autoreload 17652 17708 Watching for file changes with StatReloader
+INFO 2023-08-12 13:25:44,615 autoreload 17652 17708 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem1\urls.py changed, reloading.
+INFO 2023-08-12 13:25:45,463 autoreload 1512 10728 Watching for file changes with StatReloader
+INFO 2023-08-12 13:26:25,237 autoreload 1512 10728 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem1\urls.py changed, reloading.
+INFO 2023-08-12 13:26:26,075 autoreload 26376 14404 Watching for file changes with StatReloader
+INFO 2023-08-12 13:26:58,448 autoreload 26376 14404 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem1\urls.py changed, reloading.
+INFO 2023-08-12 13:26:59,205 autoreload 21832 26060 Watching for file changes with StatReloader
+INFO 2023-08-12 13:27:08,898 basehttp 21832 16672 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+INFO 2023-08-12 13:27:09,040 basehttp 21832 16672 "GET /media/sony.9e40e8c_oE80tCI.png HTTP/1.1" 200 129291
+INFO 2023-08-12 13:27:16,488 basehttp 21832 16672 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+INFO 2023-08-12 13:27:17,484 basehttp 21832 16672 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+INFO 2023-08-12 13:27:18,137 basehttp 21832 16672 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+INFO 2023-08-12 13:27:21,433 basehttp 21832 16672 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1095
+INFO 2023-08-12 13:28:23,993 basehttp 21832 16672 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1109
+INFO 2023-08-12 13:28:56,818 basehttp 21832 16672 "GET /homework2/edit_item/18/ HTTP/1.1" 200 1077
+INFO 2023-08-12 13:29:06,212 basehttp 21832 16672 "GET /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 13:29:09,435 basehttp 21832 16672 "GET /homework2/upload/18/ HTTP/1.1" 200 590
+INFO 2023-08-12 13:30:10,724 basehttp 21832 16672 "POST /homework2/upload/18/ HTTP/1.1" 200 590
+INFO 2023-08-12 13:30:18,228 basehttp 21832 16672 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1109
+INFO 2023-08-12 13:30:18,287 basehttp 21832 16672 "GET /media/sony.9e40e8c_oE80tCI.png HTTP/1.1" 304 0
+INFO 2023-08-12 13:30:22,898 basehttp 21832 16672 "GET /homework2/edit_item/18/ HTTP/1.1" 200 1097
+INFO 2023-08-12 13:30:22,968 basehttp 21832 16672 "GET /media/logo-nvda.png HTTP/1.1" 200 10653
+INFO 2023-08-12 13:32:10,015 autoreload 21832 26060 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\views.py changed, reloading.
+INFO 2023-08-12 13:32:11,049 autoreload 23304 5876 Watching for file changes with StatReloader
+INFO 2023-08-12 13:32:15,249 basehttp 23304 25752 "GET /homework2/upload/17/ HTTP/1.1" 200 590
+INFO 2023-08-12 13:32:21,182 basehttp 23304 25752 "POST /homework2/upload/17/ HTTP/1.1" 200 20
+INFO 2023-08-12 13:32:28,173 basehttp 23304 25752 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1109
+INFO 2023-08-12 13:32:28,328 basehttp 23304 25752 "GET /media/sony.9e40e8c_KU0MCvO.png HTTP/1.1" 200 129291
+INFO 2023-08-12 13:45:53,872 basehttp 23304 20592 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1109
+INFO 2023-08-12 13:45:53,953 basehttp 23304 20592 "GET /media/sony.9e40e8c_KU0MCvO.png HTTP/1.1" 304 0
