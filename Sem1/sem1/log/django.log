@@ -6849,3 +6849,441 @@ INFO 2023-08-12 13:32:28,173 basehttp 23304 25752 "GET /homework2/edit_item/17/ 
 INFO 2023-08-12 13:32:28,328 basehttp 23304 25752 "GET /media/sony.9e40e8c_KU0MCvO.png HTTP/1.1" 200 129291
 INFO 2023-08-12 13:45:53,872 basehttp 23304 20592 "GET /homework2/edit_item/17/ HTTP/1.1" 200 1109
 INFO 2023-08-12 13:45:53,953 basehttp 23304 20592 "GET /media/sony.9e40e8c_KU0MCvO.png HTTP/1.1" 304 0
+INFO 2023-08-12 22:40:45,368 autoreload 7456 24064 Watching for file changes with StatReloader
+INFO 2023-08-12 22:44:46,697 basehttp 7456 8788 "GET / HTTP/1.1" 200 11
+WARNING 2023-08-12 22:44:47,589 log 7456 8788 Not Found: /favicon.ico
+WARNING 2023-08-12 22:44:47,590 basehttp 7456 8788 "GET /favicon.ico HTTP/1.1" 404 3038
+INFO 2023-08-12 22:44:53,376 basehttp 7456 8788 "GET /admin HTTP/1.1" 301 0
+INFO 2023-08-12 22:44:53,399 basehttp 7456 3844 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-12 22:44:53,528 basehttp 7456 3844 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-08-12 22:44:53,735 basehttp 7456 3844 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-08-12 22:44:53,796 basehttp 7456 24180 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-08-12 22:44:53,809 basehttp 7456 15996 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-08-12 22:44:53,828 basehttp 7456 15996 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-08-12 22:44:53,830 basehttp 7456 24180 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-08-12 22:44:53,835 basehttp 7456 15836 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-08-12 22:44:53,843 basehttp 7456 24908 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-08-12 22:45:03,722 basehttp 7456 24908 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4342
+INFO 2023-08-12 22:54:32,820 autoreload 8724 7232 Watching for file changes with StatReloader
+INFO 2023-08-12 22:55:22,260 basehttp 8724 4492 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-08-12 22:55:34,177 basehttp 8724 4492 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-12 22:55:34,213 basehttp 8724 4492 "GET /admin/ HTTP/1.1" 200 5559
+INFO 2023-08-12 22:55:34,364 basehttp 8724 4492 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-08-12 22:55:34,384 basehttp 8724 15300 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-08-12 22:55:34,384 basehttp 8724 4492 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-08-12 22:55:39,072 basehttp 8724 15300 "POST /admin/logout/ HTTP/1.1" 200 3576
+INFO 2023-08-12 23:02:25,870 autoreload 8724 7232 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem1\settings.py changed, reloading.
+INFO 2023-08-12 23:02:26,990 autoreload 17096 10056 Watching for file changes with StatReloader
+INFO 2023-08-12 23:02:32,372 basehttp 17096 26064 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-12 23:02:32,425 basehttp 17096 26064 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-08-12 23:02:41,403 basehttp 17096 26064 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-12 23:02:41,430 basehttp 17096 26064 "GET /admin/ HTTP/1.1" 200 5855
+INFO 2023-08-12 23:18:15,247 autoreload 17096 10056 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-12 23:18:16,556 autoreload 17704 11488 Watching for file changes with StatReloader
+INFO 2023-08-12 23:18:40,434 autoreload 17704 11488 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-12 23:18:41,437 autoreload 6384 14676 Watching for file changes with StatReloader
+INFO 2023-08-12 23:19:47,464 autoreload 5852 17976 Watching for file changes with StatReloader
+INFO 2023-08-12 23:20:44,982 basehttp 5852 12860 "GET /admin/ HTTP/1.1" 200 6565
+INFO 2023-08-12 23:20:47,480 basehttp 5852 12860 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 12011
+INFO 2023-08-12 23:20:47,558 basehttp 5852 13308 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:20:47,782 basehttp 5852 12860 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-08-12 23:20:47,801 basehttp 5852 12860 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-08-12 23:20:47,821 basehttp 5852 12860 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-08-12 23:20:47,852 basehttp 5852 12860 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-08-12 23:20:47,871 basehttp 5852 15880 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-08-12 23:20:47,909 basehttp 5852 13800 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-08-12 23:20:47,967 basehttp 5852 4212 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-08-12 23:20:48,018 basehttp 5852 20876 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-08-12 23:20:48,035 basehttp 5852 13308 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-08-12 23:20:48,036 basehttp 5852 20876 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-08-12 23:20:48,064 basehttp 5852 13308 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-08-12 23:25:55,770 basehttp 5852 4352 "GET /admin/sem2_task1/author/14/change/ HTTP/1.1" 200 11746
+INFO 2023-08-12 23:25:55,847 basehttp 5852 2724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:25:55,847 basehttp 5852 13744 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-08-12 23:25:55,848 basehttp 5852 4352 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-08-12 23:25:55,854 basehttp 5852 22560 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-08-12 23:25:55,865 basehttp 5852 7528 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-08-12 23:25:55,868 basehttp 5852 4352 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-08-12 23:25:55,891 basehttp 5852 7528 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-08-12 23:25:56,056 basehttp 5852 7528 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-08-12 23:26:13,226 basehttp 5852 7528 "GET /admin/ HTTP/1.1" 200 6565
+INFO 2023-08-12 23:34:36,848 autoreload 5852 17976 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-12 23:34:38,115 autoreload 2464 4220 Watching for file changes with StatReloader
+INFO 2023-08-12 23:34:40,108 basehttp 2464 14188 "GET /admin/ HTTP/1.1" 200 7025
+INFO 2023-08-12 23:34:43,191 basehttp 2464 14188 "GET /admin/sem2_task1/article/ HTTP/1.1" 200 30457
+INFO 2023-08-12 23:34:43,265 basehttp 2464 14188 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:34:51,633 basehttp 2464 14188 "GET /admin/ HTTP/1.1" 200 7025
+INFO 2023-08-12 23:38:47,418 autoreload 2464 4220 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-12 23:38:48,691 autoreload 2708 3836 Watching for file changes with StatReloader
+INFO 2023-08-12 23:38:53,987 basehttp 2708 26460 "GET /admin/ HTTP/1.1" 200 8617
+INFO 2023-08-12 23:38:56,037 basehttp 2708 26460 "GET /admin/homework2/client/ HTTP/1.1" 200 23744
+INFO 2023-08-12 23:38:56,110 basehttp 2708 26460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:38:59,972 basehttp 2708 26460 "GET /admin/homework2/item/ HTTP/1.1" 200 24105
+INFO 2023-08-12 23:39:00,042 basehttp 2708 26460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:39:04,971 basehttp 2708 26460 "GET /admin/homework2/order/ HTTP/1.1" 200 18669
+INFO 2023-08-12 23:39:05,035 basehttp 2708 26460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:39:09,826 basehttp 2708 26460 "GET /admin/homework2/order/21/change/ HTTP/1.1" 200 26704
+INFO 2023-08-12 23:39:09,908 basehttp 2708 26460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:39:10,035 basehttp 2708 26460 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-08-12 23:39:31,137 basehttp 2708 26460 "GET /admin/homework2/order/ HTTP/1.1" 200 18669
+INFO 2023-08-12 23:39:31,210 basehttp 2708 26460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:39:33,975 basehttp 2708 26460 "GET /admin/homework2/order/20/change/ HTTP/1.1" 200 26701
+INFO 2023-08-12 23:39:34,041 basehttp 2708 26460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:39:43,366 basehttp 2708 26460 "GET /admin/homework2/client/ HTTP/1.1" 200 23744
+INFO 2023-08-12 23:39:43,434 basehttp 2708 26460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:39:46,301 basehttp 2708 26460 "GET /admin/homework2/client/44/change/ HTTP/1.1" 200 12717
+INFO 2023-08-12 23:39:46,369 basehttp 2708 26460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:39:54,527 basehttp 2708 26460 "GET /admin/homework2/client/ HTTP/1.1" 200 23744
+INFO 2023-08-12 23:39:54,600 basehttp 2708 26460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:44:23,144 basehttp 2708 26460 "GET /admin/sem2_task1/ HTTP/1.1" 200 5804
+INFO 2023-08-12 23:44:28,537 basehttp 2708 26460 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 13492
+INFO 2023-08-12 23:44:28,606 basehttp 2708 26460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:44:33,530 basehttp 2708 26460 "GET /admin/auth/group/ HTTP/1.1" 200 9691
+INFO 2023-08-12 23:44:33,602 basehttp 2708 26460 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:44:33,610 basehttp 2708 18468 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-08-12 23:44:37,352 basehttp 2708 18468 "GET /admin/auth/group/add/ HTTP/1.1" 200 14994
+INFO 2023-08-12 23:44:37,422 basehttp 2708 18468 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-08-12 23:44:37,430 basehttp 2708 22376 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:44:37,431 basehttp 2708 26460 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-08-12 23:44:37,612 basehttp 2708 18468 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-08-12 23:44:37,613 basehttp 2708 22376 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-08-12 23:44:37,613 basehttp 2708 26460 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-08-12 23:48:48,277 basehttp 2708 18468 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-08-12 23:48:48,314 basehttp 2708 18468 "GET /admin/auth/group/ HTTP/1.1" 200 11168
+INFO 2023-08-12 23:48:48,397 basehttp 2708 18468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:48:48,453 basehttp 2708 18468 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-08-12 23:48:52,524 basehttp 2708 18468 "GET /admin/auth/group/1/change/ HTTP/1.1" 200 15241
+INFO 2023-08-12 23:48:52,600 basehttp 2708 18468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-12 23:57:01,089 basehttp 2708 1476 "POST /admin/auth/group/1/change/ HTTP/1.1" 302 0
+INFO 2023-08-12 23:57:01,122 basehttp 2708 1476 "GET /admin/auth/group/ HTTP/1.1" 200 11170
+INFO 2023-08-12 23:57:01,203 basehttp 2708 1476 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:07:47,943 basehttp 2708 11108 "GET /admin/auth/group/add/ HTTP/1.1" 200 14994
+INFO 2023-08-13 00:07:48,038 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:07:51,618 basehttp 2708 11108 "GET /admin/auth/group/ HTTP/1.1" 200 10953
+INFO 2023-08-13 00:07:51,714 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:07:55,294 basehttp 2708 11108 "GET /admin/auth/group/add/ HTTP/1.1" 200 14994
+INFO 2023-08-13 00:07:55,401 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:10:20,916 basehttp 2708 11108 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 00:10:20,951 basehttp 2708 11108 "GET /admin/auth/group/ HTTP/1.1" 200 11383
+INFO 2023-08-13 00:10:21,050 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:10:27,521 basehttp 2708 11108 "GET /admin/auth/group/add/ HTTP/1.1" 200 14994
+INFO 2023-08-13 00:10:27,600 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:11:49,242 basehttp 2708 11108 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 00:11:49,281 basehttp 2708 11108 "GET /admin/auth/group/ HTTP/1.1" 200 11589
+INFO 2023-08-13 00:11:49,382 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:12:19,890 basehttp 2708 11108 "GET /admin/auth/group/add/ HTTP/1.1" 200 14994
+INFO 2023-08-13 00:12:19,963 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:13:13,307 basehttp 2708 11108 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 00:13:13,340 basehttp 2708 11108 "GET /admin/auth/group/ HTTP/1.1" 200 11798
+INFO 2023-08-13 00:13:13,420 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:14:34,525 basehttp 2708 11108 "GET /admin/auth/user/ HTTP/1.1" 200 13879
+INFO 2023-08-13 00:14:34,602 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:14:34,649 basehttp 2708 11108 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-08-13 00:14:36,601 basehttp 2708 11108 "GET /admin/auth/user/add/ HTTP/1.1" 200 13038
+INFO 2023-08-13 00:14:36,668 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:15:22,926 basehttp 2708 11108 "POST /admin/auth/user/add/ HTTP/1.1" 200 13320
+INFO 2023-08-13 00:15:22,997 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:16:10,876 basehttp 2708 11108 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 00:16:10,966 basehttp 2708 11108 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25805
+INFO 2023-08-13 00:16:11,048 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:16:11,282 basehttp 2708 11108 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-08-13 00:18:23,420 basehttp 2708 11108 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-08-13 00:18:23,462 basehttp 2708 11108 "GET /admin/auth/user/ HTTP/1.1" 200 14521
+INFO 2023-08-13 00:18:23,586 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:18:23,608 basehttp 2708 11108 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-08-13 00:18:35,806 basehttp 2708 11108 "GET /admin/auth/user/add/ HTTP/1.1" 200 13038
+INFO 2023-08-13 00:18:35,887 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:18:57,517 basehttp 2708 11108 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 00:18:57,558 basehttp 2708 11108 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 25820
+INFO 2023-08-13 00:18:57,640 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:21:27,046 basehttp 2708 11108 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2023-08-13 00:21:27,079 basehttp 2708 11108 "GET /admin/auth/user/ HTTP/1.1" 200 14951
+INFO 2023-08-13 00:21:27,158 basehttp 2708 11108 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:26:29,054 basehttp 2708 9620 "GET /admin/auth/group/ HTTP/1.1" 200 11583
+INFO 2023-08-13 00:26:29,162 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:26:35,698 basehttp 2708 9620 "GET /admin/auth/user/ HTTP/1.1" 200 14722
+INFO 2023-08-13 00:26:35,803 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:26:40,546 basehttp 2708 9620 "GET /admin/auth/user/add/ HTTP/1.1" 200 13038
+INFO 2023-08-13 00:26:40,639 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:27:02,648 basehttp 2708 9620 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 00:27:02,722 basehttp 2708 9620 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 25805
+INFO 2023-08-13 00:27:02,854 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:27:36,357 basehttp 2708 9620 "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO 2023-08-13 00:27:36,385 basehttp 2708 9620 "GET /admin/auth/user/ HTTP/1.1" 200 15364
+INFO 2023-08-13 00:27:36,455 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:27:39,850 basehttp 2708 9620 "GET /admin/auth/user/add/ HTTP/1.1" 200 13038
+INFO 2023-08-13 00:27:39,923 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:27:53,971 basehttp 2708 9620 "GET /admin/auth/group/ HTTP/1.1" 200 11583
+INFO 2023-08-13 00:27:54,041 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:27:57,094 basehttp 2708 9620 "GET /admin/auth/user/ HTTP/1.1" 200 15138
+INFO 2023-08-13 00:27:57,156 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:28:00,766 basehttp 2708 9620 "GET /admin/auth/group/ HTTP/1.1" 200 11583
+INFO 2023-08-13 00:28:00,835 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:28:02,392 basehttp 2708 9620 "GET /admin/auth/user/ HTTP/1.1" 200 15138
+INFO 2023-08-13 00:28:02,471 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:28:04,322 basehttp 2708 9620 "GET /admin/auth/user/add/ HTTP/1.1" 200 13038
+INFO 2023-08-13 00:28:04,385 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:28:22,337 basehttp 2708 9620 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 00:28:22,379 basehttp 2708 9620 "GET /admin/auth/user/5/change/ HTTP/1.1" 200 25805
+INFO 2023-08-13 00:28:22,453 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 00:28:50,362 basehttp 2708 9620 "POST /admin/auth/user/5/change/ HTTP/1.1" 302 0
+INFO 2023-08-13 00:28:50,395 basehttp 2708 9620 "GET /admin/auth/user/ HTTP/1.1" 200 15780
+INFO 2023-08-13 00:28:50,472 basehttp 2708 9620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 01:13:37,335 basehttp 2708 11272 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-08-13 01:13:39,529 basehttp 2708 11272 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 01:13:39,546 basehttp 2708 11272 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-08-13 01:13:54,452 basehttp 2708 11272 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4539
+INFO 2023-08-13 01:14:05,586 basehttp 2708 11272 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4547
+INFO 2023-08-13 01:14:21,938 basehttp 2708 11272 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 01:14:21,965 basehttp 2708 11272 "GET /admin/ HTTP/1.1" 200 11664
+INFO 2023-08-13 01:14:31,303 basehttp 2708 11272 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-08-13 01:14:35,037 basehttp 2708 11272 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 01:14:35,050 basehttp 2708 11272 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-08-13 01:14:49,821 basehttp 2708 11272 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4539
+INFO 2023-08-13 01:15:00,289 basehttp 2708 11272 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4539
+INFO 2023-08-13 01:15:12,644 basehttp 2708 11272 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 01:15:12,671 basehttp 2708 11272 "GET /admin/ HTTP/1.1" 200 11664
+INFO 2023-08-13 01:15:20,190 basehttp 2708 11272 "GET /admin/auth/user/ HTTP/1.1" 200 15554
+INFO 2023-08-13 01:15:20,264 basehttp 2708 11272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 01:15:52,111 basehttp 2708 11272 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 25567
+INFO 2023-08-13 01:15:52,190 basehttp 2708 11272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 01:16:05,930 basehttp 2708 11272 "GET /admin/auth/user/ HTTP/1.1" 200 15554
+INFO 2023-08-13 01:16:06,011 basehttp 2708 11272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 01:16:13,796 basehttp 2708 11272 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 25567
+INFO 2023-08-13 01:16:13,870 basehttp 2708 11272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 01:16:25,798 basehttp 2708 11272 "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO 2023-08-13 01:16:25,837 basehttp 2708 11272 "GET /admin/auth/user/ HTTP/1.1" 200 15780
+INFO 2023-08-13 01:16:25,913 basehttp 2708 11272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 01:16:28,930 basehttp 2708 11272 "GET /admin/ HTTP/1.1" 200 11676
+INFO 2023-08-13 01:16:33,086 basehttp 2708 11272 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-08-13 01:16:40,868 basehttp 2708 11272 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 01:16:40,878 basehttp 2708 11272 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-08-13 01:17:12,052 basehttp 2708 11272 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 01:17:12,084 basehttp 2708 11272 "GET /admin/ HTTP/1.1" 200 11676
+INFO 2023-08-13 01:17:15,015 basehttp 2708 11272 "GET /admin/auth/user/ HTTP/1.1" 200 15554
+INFO 2023-08-13 01:17:15,087 basehttp 2708 11272 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 01:17:20,832 basehttp 2708 11272 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-08-13 01:17:22,742 basehttp 2708 11272 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 01:17:22,752 basehttp 2708 11272 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-08-13 01:17:34,515 basehttp 2708 11272 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 01:17:34,538 basehttp 2708 11272 "GET /admin/ HTTP/1.1" 200 5383
+INFO 2023-08-13 01:27:52,250 autoreload 2708 3836 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 01:27:53,700 autoreload 27112 27096 Watching for file changes with StatReloader
+INFO 2023-08-13 01:28:39,680 autoreload 27112 27096 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 01:28:40,562 autoreload 17508 22344 Watching for file changes with StatReloader
+INFO 2023-08-13 01:29:15,710 autoreload 17508 22344 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 01:29:16,503 autoreload 15780 24592 Watching for file changes with StatReloader
+INFO 2023-08-13 01:29:46,147 autoreload 15780 24592 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 01:29:47,062 autoreload 8688 8500 Watching for file changes with StatReloader
+INFO 2023-08-13 01:30:07,933 autoreload 8688 8500 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 01:30:09,040 autoreload 26892 7748 Watching for file changes with StatReloader
+INFO 2023-08-13 01:30:25,492 autoreload 26892 7748 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 01:30:26,266 autoreload 27440 1556 Watching for file changes with StatReloader
+INFO 2023-08-13 01:31:18,088 autoreload 27440 1556 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 01:31:19,080 autoreload 25116 14624 Watching for file changes with StatReloader
+INFO 2023-08-13 01:32:07,831 autoreload 25116 14624 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 01:32:08,689 autoreload 10744 6836 Watching for file changes with StatReloader
+INFO 2023-08-13 01:32:16,377 basehttp 10744 23724 "GET /admin/ HTTP/1.1" 200 5383
+INFO 2023-08-13 01:32:23,130 basehttp 10744 23724 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-08-13 01:32:29,861 basehttp 10744 23724 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 01:32:29,884 basehttp 10744 23724 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-08-13 01:32:40,741 basehttp 10744 23724 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 01:32:40,765 basehttp 10744 23724 "GET /admin/ HTTP/1.1" 200 11676
+INFO 2023-08-13 01:32:47,185 basehttp 10744 23724 "GET /admin/sem2_task1/ HTTP/1.1" 200 5804
+INFO 2023-08-13 01:32:49,039 basehttp 10744 23724 "GET /admin/sem2_task1/article/ HTTP/1.1" 200 31623
+INFO 2023-08-13 01:32:49,112 basehttp 10744 23724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 01:32:52,284 basehttp 10744 23724 "GET /admin/homework2/ HTTP/1.1" 200 6222
+INFO 2023-08-13 01:32:58,174 basehttp 10744 23724 "GET /admin/ HTTP/1.1" 200 11676
+INFO 2023-08-13 01:33:47,415 basehttp 10744 23724 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 14871
+INFO 2023-08-13 01:33:47,480 basehttp 10744 23724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 01:36:04,105 autoreload 10744 6836 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 01:36:05,824 autoreload 28620 27576 Watching for file changes with StatReloader
+INFO 2023-08-13 01:36:22,353 autoreload 28620 27576 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 01:36:23,404 autoreload 12992 27160 Watching for file changes with StatReloader
+INFO 2023-08-13 01:37:04,335 autoreload 6064 28096 Watching for file changes with StatReloader
+INFO 2023-08-13 01:37:32,892 autoreload 6064 28096 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 01:37:33,814 autoreload 12524 26956 Watching for file changes with StatReloader
+INFO 2023-08-13 01:38:05,055 autoreload 12524 26956 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 01:38:06,030 autoreload 17388 27588 Watching for file changes with StatReloader
+INFO 2023-08-13 01:38:06,552 basehttp 17388 27164 "GET /admin/ HTTP/1.1" 200 11676
+INFO 2023-08-13 01:38:12,283 basehttp 17388 27164 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 15657
+INFO 2023-08-13 01:38:12,360 basehttp 17388 27164 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 01:38:15,428 basehttp 17388 27164 "GET /admin/auth/user/ HTTP/1.1" 200 15554
+INFO 2023-08-13 01:38:15,496 basehttp 17388 27164 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 01:38:19,046 basehttp 17388 27164 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 15657
+INFO 2023-08-13 01:38:19,116 basehttp 17388 27164 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 01:38:43,911 autoreload 17388 27588 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 01:38:44,761 autoreload 13372 21544 Watching for file changes with StatReloader
+INFO 2023-08-13 01:39:00,127 autoreload 13372 21544 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 01:39:01,076 autoreload 7772 26780 Watching for file changes with StatReloader
+INFO 2023-08-13 17:10:33,973 autoreload 28640 6320 Watching for file changes with StatReloader
+INFO 2023-08-13 17:10:42,766 basehttp 28640 22164 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 16903
+INFO 2023-08-13 17:10:42,864 basehttp 28640 22164 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+WARNING 2023-08-13 17:10:44,033 log 28640 22164 Not Found: /favicon.ico
+WARNING 2023-08-13 17:10:44,034 basehttp 28640 22164 "GET /favicon.ico HTTP/1.1" 404 3038
+ERROR 2023-08-13 17:11:01,439 log 28640 22164 Internal Server Error: /admin/sem2_task1/author/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1926, in changelist_view
+    cl = self.get_changelist_instance(request)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 836, in get_changelist_instance
+    return ChangeList(
+           ^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\views\main.py", line 122, in __init__
+    self.queryset = self.get_queryset(request)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\views\main.py", line 529, in get_queryset
+    qs, search_may_have_duplicates = self.model_admin.get_search_results(
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1155, in get_search_results
+    queryset = queryset.filter(models.Q.create(term_queries))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\sql\query.py", line 1534, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\sql\query.py", line 1565, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\sql\query.py", line 1393, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\sql\query.py", line 1565, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\sql\query.py", line 1393, in build_filter
+    return self._add_q(
+           ^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\sql\query.py", line 1565, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\sql\query.py", line 1415, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\sql\query.py", line 1225, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\db\models\sql\query.py", line 1713, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'authors' into field. Choices are: article, biography, birthday, email, id, name, surname
+ERROR 2023-08-13 17:11:01,454 basehttp 28640 22164 "GET /admin/sem2_task1/author/?q=nm4 HTTP/1.1" 500 188467
+INFO 2023-08-13 17:12:21,721 autoreload 28640 6320 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:12:22,749 autoreload 25156 7836 Watching for file changes with StatReloader
+INFO 2023-08-13 17:12:24,874 basehttp 25156 18052 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 16903
+INFO 2023-08-13 17:12:26,820 basehttp 25156 18052 "GET /admin/sem2_task1/author/?q=nm4 HTTP/1.1" 200 13331
+INFO 2023-08-13 17:12:26,897 basehttp 25156 18052 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 17:13:54,737 autoreload 25156 7836 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:13:55,888 autoreload 24380 17160 Watching for file changes with StatReloader
+INFO 2023-08-13 17:14:38,146 autoreload 24380 17160 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:14:38,996 autoreload 12892 16344 Watching for file changes with StatReloader
+INFO 2023-08-13 17:14:54,354 autoreload 12892 16344 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:14:55,216 autoreload 20416 20652 Watching for file changes with StatReloader
+INFO 2023-08-13 17:15:15,880 autoreload 20416 20652 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:15:16,806 autoreload 15012 8392 Watching for file changes with StatReloader
+INFO 2023-08-13 17:15:26,219 autoreload 15012 8392 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:15:27,135 autoreload 18336 23072 Watching for file changes with StatReloader
+INFO 2023-08-13 17:15:36,742 autoreload 18336 23072 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:15:37,605 autoreload 4692 16032 Watching for file changes with StatReloader
+INFO 2023-08-13 17:15:50,388 autoreload 4692 16032 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:15:51,587 autoreload 14520 1180 Watching for file changes with StatReloader
+INFO 2023-08-13 17:16:01,570 autoreload 14520 1180 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:16:02,481 autoreload 6892 24960 Watching for file changes with StatReloader
+INFO 2023-08-13 17:16:11,507 autoreload 6892 24960 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:16:12,534 autoreload 7808 22684 Watching for file changes with StatReloader
+INFO 2023-08-13 17:16:59,085 autoreload 7808 22684 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:17:00,076 autoreload 9568 14072 Watching for file changes with StatReloader
+INFO 2023-08-13 17:17:07,444 autoreload 9568 14072 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:17:08,343 autoreload 11112 3808 Watching for file changes with StatReloader
+INFO 2023-08-13 17:17:18,370 autoreload 11112 3808 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:17:19,239 autoreload 2832 11328 Watching for file changes with StatReloader
+INFO 2023-08-13 17:17:28,729 autoreload 2832 11328 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:17:29,696 autoreload 14728 27912 Watching for file changes with StatReloader
+INFO 2023-08-13 17:18:02,066 autoreload 14728 27912 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:18:03,206 autoreload 22328 3500 Watching for file changes with StatReloader
+INFO 2023-08-13 17:18:13,665 autoreload 22328 3500 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:18:14,548 autoreload 20360 5380 Watching for file changes with StatReloader
+INFO 2023-08-13 17:18:20,679 autoreload 20360 5380 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:18:21,586 autoreload 24716 22564 Watching for file changes with StatReloader
+INFO 2023-08-13 17:18:42,197 autoreload 24716 22564 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:18:43,075 autoreload 12404 11936 Watching for file changes with StatReloader
+INFO 2023-08-13 17:18:48,354 autoreload 12404 11936 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:18:49,272 autoreload 9504 7076 Watching for file changes with StatReloader
+INFO 2023-08-13 17:18:54,361 autoreload 9504 7076 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:18:55,334 autoreload 9704 27712 Watching for file changes with StatReloader
+INFO 2023-08-13 17:19:26,984 autoreload 9704 27712 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:19:27,941 autoreload 3384 19488 Watching for file changes with StatReloader
+INFO 2023-08-13 17:19:54,006 autoreload 3384 19488 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:19:55,018 autoreload 7252 22840 Watching for file changes with StatReloader
+INFO 2023-08-13 17:20:01,223 autoreload 7252 22840 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:20:02,233 autoreload 20632 14056 Watching for file changes with StatReloader
+INFO 2023-08-13 17:20:09,620 autoreload 20632 14056 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:20:10,505 autoreload 19488 18768 Watching for file changes with StatReloader
+INFO 2023-08-13 17:20:35,236 autoreload 19488 18768 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:20:36,261 autoreload 27132 21576 Watching for file changes with StatReloader
+INFO 2023-08-13 17:20:43,635 autoreload 27132 21576 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:20:44,675 autoreload 11144 2212 Watching for file changes with StatReloader
+INFO 2023-08-13 17:21:28,985 autoreload 11144 2212 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:21:30,025 autoreload 21200 15904 Watching for file changes with StatReloader
+INFO 2023-08-13 17:22:36,654 autoreload 21200 15904 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:22:37,544 autoreload 2176 14960 Watching for file changes with StatReloader
+INFO 2023-08-13 17:23:44,248 autoreload 2176 14960 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:23:45,463 autoreload 2636 28216 Watching for file changes with StatReloader
+INFO 2023-08-13 17:24:18,940 autoreload 2636 28216 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:24:20,058 autoreload 28036 25988 Watching for file changes with StatReloader
+INFO 2023-08-13 17:25:44,185 autoreload 28036 25988 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:25:45,220 autoreload 20556 16672 Watching for file changes with StatReloader
+INFO 2023-08-13 17:26:08,065 autoreload 20556 16672 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:26:09,074 autoreload 17860 2100 Watching for file changes with StatReloader
+INFO 2023-08-13 17:26:25,757 basehttp 17860 10996 "GET /admin/sem2_task1/author/?q=nm4 HTTP/1.1" 200 13331
+INFO 2023-08-13 17:26:25,810 basehttp 17860 10996 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 17:26:36,175 basehttp 17860 10996 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 16903
+INFO 2023-08-13 17:26:36,242 basehttp 17860 10996 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 17:26:42,247 basehttp 17860 10996 "GET /admin/sem2_task1/author/5/change/ HTTP/1.1" 200 13453
+INFO 2023-08-13 17:26:42,319 basehttp 17860 27820 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 17:26:42,407 basehttp 17860 10996 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-08-13 17:26:46,195 basehttp 17860 10996 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 16903
+INFO 2023-08-13 17:26:49,311 basehttp 17860 10996 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 16903
+INFO 2023-08-13 17:26:49,374 basehttp 17860 10996 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 17:26:59,354 autoreload 14284 26264 Watching for file changes with StatReloader
+INFO 2023-08-13 17:27:03,974 basehttp 14284 15904 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 16903
+INFO 2023-08-13 17:27:04,034 basehttp 14284 15904 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 17:27:05,983 basehttp 14284 15904 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 16903
+INFO 2023-08-13 17:27:06,036 basehttp 14284 15904 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 17:27:56,185 basehttp 14284 15904 "GET /admin/sem2_task1/author/5/change/ HTTP/1.1" 200 13453
+INFO 2023-08-13 17:27:56,300 basehttp 14284 15904 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 17:52:22,818 autoreload 14284 26264 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\sem2_task1\admin.py changed, reloading.
+INFO 2023-08-13 17:52:24,075 autoreload 26548 23280 Watching for file changes with StatReloader
+INFO 2023-08-13 17:52:40,076 basehttp 26548 20396 "GET /admin/ HTTP/1.1" 200 11676
+INFO 2023-08-13 17:52:47,505 basehttp 26548 20396 "GET /admin/sem2_task1/ HTTP/1.1" 200 5804
+INFO 2023-08-13 17:52:49,779 basehttp 26548 20396 "GET /admin/sem2_task1/ HTTP/1.1" 200 5804
+INFO 2023-08-13 17:52:54,858 basehttp 26548 20396 "GET /admin/ HTTP/1.1" 200 11676
