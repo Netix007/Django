@@ -7287,3 +7287,840 @@ INFO 2023-08-13 17:52:40,076 basehttp 26548 20396 "GET /admin/ HTTP/1.1" 200 116
 INFO 2023-08-13 17:52:47,505 basehttp 26548 20396 "GET /admin/sem2_task1/ HTTP/1.1" 200 5804
 INFO 2023-08-13 17:52:49,779 basehttp 26548 20396 "GET /admin/sem2_task1/ HTTP/1.1" 200 5804
 INFO 2023-08-13 17:52:54,858 basehttp 26548 20396 "GET /admin/ HTTP/1.1" 200 11676
+INFO 2023-08-13 22:46:19,562 autoreload 16732 13172 Watching for file changes with StatReloader
+INFO 2023-08-13 22:46:36,992 basehttp 16732 7788 "GET /admin/ HTTP/1.1" 200 11676
+WARNING 2023-08-13 22:46:38,951 log 16732 7788 Not Found: /favicon.ico
+WARNING 2023-08-13 22:46:38,953 basehttp 16732 7788 "GET /favicon.ico HTTP/1.1" 404 3038
+INFO 2023-08-13 22:46:50,214 basehttp 16732 7788 "GET /admin/auth/user/ HTTP/1.1" 200 15554
+INFO 2023-08-13 22:46:50,318 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:46:57,551 basehttp 16732 7788 "GET /admin/auth/group/ HTTP/1.1" 200 11583
+INFO 2023-08-13 22:46:57,655 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:47:08,305 basehttp 16732 7788 "GET /admin/auth/user/ HTTP/1.1" 200 15554
+INFO 2023-08-13 22:47:08,411 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:47:39,399 basehttp 16732 7788 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25567
+INFO 2023-08-13 22:47:39,535 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:47:56,127 basehttp 16732 7788 "GET /admin/auth/group/ HTTP/1.1" 200 11583
+INFO 2023-08-13 22:47:56,235 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:48:03,552 basehttp 16732 7788 "GET /admin/auth/group/add/ HTTP/1.1" 200 14994
+INFO 2023-08-13 22:48:03,643 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:50:06,218 basehttp 16732 7788 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:50:06,260 basehttp 16732 7788 "GET /admin/auth/group/ HTTP/1.1" 200 12003
+INFO 2023-08-13 22:50:06,361 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:50:13,577 basehttp 16732 7788 "GET /admin/auth/group/add/ HTTP/1.1" 200 14994
+INFO 2023-08-13 22:50:13,699 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:52:36,214 basehttp 16732 7788 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:52:36,263 basehttp 16732 7788 "GET /admin/auth/group/ HTTP/1.1" 200 12214
+INFO 2023-08-13 22:52:36,366 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:52:39,363 basehttp 16732 7788 "GET /admin/auth/group/add/ HTTP/1.1" 200 14994
+INFO 2023-08-13 22:52:39,467 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:53:39,094 basehttp 16732 7788 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:53:39,143 basehttp 16732 7788 "GET /admin/auth/group/ HTTP/1.1" 200 12417
+INFO 2023-08-13 22:53:39,270 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:53:42,880 basehttp 16732 7788 "GET /admin/auth/user/ HTTP/1.1" 200 15756
+INFO 2023-08-13 22:53:42,981 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:53:47,122 basehttp 16732 7788 "GET /admin/auth/user/add/ HTTP/1.1" 200 13038
+INFO 2023-08-13 22:53:47,218 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:54:21,642 basehttp 16732 7788 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:54:21,729 basehttp 16732 7788 "GET /admin/auth/user/6/change/ HTTP/1.1" 200 25919
+INFO 2023-08-13 22:54:21,851 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:55:05,074 basehttp 16732 7788 "POST /admin/auth/user/6/change/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:55:05,121 basehttp 16732 7788 "GET /admin/auth/user/ HTTP/1.1" 200 16391
+INFO 2023-08-13 22:55:05,244 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:55:18,573 basehttp 16732 7788 "GET /admin/auth/user/?groups__id__exact=5 HTTP/1.1" 200 14824
+INFO 2023-08-13 22:55:18,673 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:55:21,151 basehttp 16732 7788 "GET /admin/auth/user/? HTTP/1.1" 200 16167
+INFO 2023-08-13 22:55:21,241 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:55:27,182 basehttp 16732 7788 "GET /admin/auth/user/add/ HTTP/1.1" 200 13038
+INFO 2023-08-13 22:55:27,363 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:55:50,918 basehttp 16732 7788 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:55:51,008 basehttp 16732 7788 "GET /admin/auth/user/7/change/ HTTP/1.1" 200 25934
+INFO 2023-08-13 22:55:51,120 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:56:23,930 basehttp 16732 7788 "POST /admin/auth/user/7/change/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:56:23,988 basehttp 16732 7788 "GET /admin/auth/user/ HTTP/1.1" 200 16814
+INFO 2023-08-13 22:56:24,206 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:56:40,447 basehttp 16732 7788 "GET /admin/auth/user/add/ HTTP/1.1" 200 13038
+INFO 2023-08-13 22:56:40,567 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:57:02,312 basehttp 16732 7788 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:57:02,382 basehttp 16732 7788 "GET /admin/auth/user/8/change/ HTTP/1.1" 200 25924
+INFO 2023-08-13 22:57:02,514 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:57:33,492 basehttp 16732 7788 "POST /admin/auth/user/8/change/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:57:33,548 basehttp 16732 7788 "GET /admin/auth/user/ HTTP/1.1" 200 17221
+INFO 2023-08-13 22:57:33,675 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:57:36,569 basehttp 16732 7788 "GET /admin/auth/user/add/ HTTP/1.1" 200 13038
+INFO 2023-08-13 22:57:36,661 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:57:57,837 basehttp 16732 7788 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:57:57,933 basehttp 16732 7788 "GET /admin/auth/user/9/change/ HTTP/1.1" 200 25924
+INFO 2023-08-13 22:57:58,052 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:58:24,510 basehttp 16732 7788 "POST /admin/auth/user/9/change/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:58:24,561 basehttp 16732 7788 "GET /admin/auth/user/ HTTP/1.1" 200 17628
+INFO 2023-08-13 22:58:24,686 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:59:10,424 basehttp 16732 7788 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-08-13 22:59:12,419 basehttp 16732 7788 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:59:12,449 basehttp 16732 7788 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-08-13 22:59:25,990 basehttp 16732 7788 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:59:26,035 basehttp 16732 7788 "GET /admin/ HTTP/1.1" 200 11649
+INFO 2023-08-13 22:59:34,105 basehttp 16732 7788 "GET /admin/auth/user/ HTTP/1.1" 200 17403
+INFO 2023-08-13 22:59:34,246 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 22:59:41,429 basehttp 16732 7788 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-08-13 22:59:43,501 basehttp 16732 7788 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:59:43,521 basehttp 16732 7788 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-08-13 22:59:58,311 basehttp 16732 7788 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 22:59:58,351 basehttp 16732 7788 "GET /admin/ HTTP/1.1" 200 6257
+INFO 2023-08-13 23:00:05,424 basehttp 16732 7788 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-08-13 23:00:07,161 basehttp 16732 7788 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 23:00:07,177 basehttp 16732 7788 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-08-13 23:00:15,291 basehttp 16732 7788 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 23:00:15,346 basehttp 16732 7788 "GET /admin/ HTTP/1.1" 200 11649
+INFO 2023-08-13 23:00:16,568 basehttp 16732 7788 "GET /admin/auth/user/ HTTP/1.1" 200 17403
+INFO 2023-08-13 23:00:16,671 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:00:20,940 basehttp 16732 7788 "GET /admin/auth/user/6/change/ HTTP/1.1" 200 25724
+INFO 2023-08-13 23:00:21,050 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:00:29,277 basehttp 16732 7788 "POST /admin/auth/user/6/change/ HTTP/1.1" 302 0
+INFO 2023-08-13 23:00:29,327 basehttp 16732 7788 "GET /admin/auth/user/ HTTP/1.1" 200 17629
+INFO 2023-08-13 23:00:29,425 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:00:32,652 basehttp 16732 7788 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-08-13 23:00:34,203 basehttp 16732 7788 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 23:00:34,217 basehttp 16732 7788 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-08-13 23:00:51,730 basehttp 16732 7788 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4537
+INFO 2023-08-13 23:00:57,776 basehttp 16732 7788 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 23:00:57,815 basehttp 16732 7788 "GET /admin/ HTTP/1.1" 200 6257
+INFO 2023-08-13 23:02:51,882 basehttp 16732 7788 "GET /admin/homework2/order/ HTTP/1.1" 200 16871
+INFO 2023-08-13 23:02:51,947 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:03:05,139 basehttp 16732 7788 "GET /admin/homework2/order/31/change/ HTTP/1.1" 200 24909
+INFO 2023-08-13 23:03:05,193 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:03:09,446 basehttp 16732 7788 "GET /admin/homework2/order/ HTTP/1.1" 200 16871
+INFO 2023-08-13 23:03:09,495 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:03:14,808 basehttp 16732 7788 "GET /admin/homework2/item/ HTTP/1.1" 200 22307
+INFO 2023-08-13 23:03:14,867 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:03:21,121 basehttp 16732 7788 "GET /admin/homework2/item/45/change/ HTTP/1.1" 200 11420
+INFO 2023-08-13 23:03:21,174 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:03:25,035 basehttp 16732 7788 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:03:25,095 basehttp 16732 7788 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:07:23,937 autoreload 16732 13172 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:07:25,384 autoreload 28768 29048 Watching for file changes with StatReloader
+INFO 2023-08-13 23:07:27,097 basehttp 28768 19952 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:07:27,152 basehttp 28768 19952 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:07:33,106 basehttp 28768 19952 "GET /admin/homework2/client/45/change/ HTTP/1.1" 200 10903
+INFO 2023-08-13 23:07:33,167 basehttp 28768 19952 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:07:39,753 basehttp 28768 19952 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:07:39,815 basehttp 28768 19952 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:08:22,012 autoreload 28768 29048 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:08:22,840 autoreload 2076 29268 Watching for file changes with StatReloader
+INFO 2023-08-13 23:08:36,901 autoreload 2076 29268 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:08:37,674 autoreload 17712 24356 Watching for file changes with StatReloader
+INFO 2023-08-13 23:08:58,026 autoreload 17712 24356 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:08:58,806 autoreload 9560 19704 Watching for file changes with StatReloader
+INFO 2023-08-13 23:09:19,208 autoreload 9560 19704 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:09:20,045 autoreload 23192 14088 Watching for file changes with StatReloader
+INFO 2023-08-13 23:10:28,498 autoreload 23192 14088 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:10:29,306 autoreload 22184 18180 Watching for file changes with StatReloader
+INFO 2023-08-13 23:10:29,588 basehttp 22184 25300 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:10:29,639 basehttp 22184 25300 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:10:30,353 basehttp 22184 25300 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:10:30,399 basehttp 22184 25300 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:10:32,079 basehttp 22184 25300 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:10:32,132 basehttp 22184 25300 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:10:42,102 autoreload 16796 23048 Watching for file changes with StatReloader
+INFO 2023-08-13 23:10:45,657 basehttp 16796 28020 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:10:45,706 basehttp 16796 28020 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:10:46,397 basehttp 16796 28020 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:10:46,446 basehttp 16796 28020 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:10:47,272 basehttp 16796 28020 "GET /admin/homework2/item/ HTTP/1.1" 200 22307
+INFO 2023-08-13 23:10:47,336 basehttp 16796 28020 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:10:48,132 basehttp 16796 28020 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:10:48,182 basehttp 16796 28020 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:10:49,039 basehttp 16796 28020 "GET /admin/homework2/order/ HTTP/1.1" 200 16871
+INFO 2023-08-13 23:10:49,086 basehttp 16796 28020 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:10:49,797 basehttp 16796 28020 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:10:49,850 basehttp 16796 28020 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:10:51,020 basehttp 16796 28020 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:10:51,061 basehttp 16796 28020 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:11:36,490 autoreload 16796 23048 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:11:37,250 autoreload 29608 22660 Watching for file changes with StatReloader
+INFO 2023-08-13 23:12:03,455 autoreload 29608 22660 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:12:07,722 autoreload 29536 29684 Watching for file changes with StatReloader
+INFO 2023-08-13 23:12:17,497 autoreload 29536 29684 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:12:18,233 autoreload 26176 29628 Watching for file changes with StatReloader
+INFO 2023-08-13 23:12:24,216 basehttp 26176 7000 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:12:24,276 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:12:24,908 basehttp 26176 7000 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:12:24,958 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:13:50,308 basehttp 26176 7000 "GET /admin/homework2/client/ HTTP/1.1" 200 21946
+INFO 2023-08-13 23:13:50,363 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:13:53,221 basehttp 26176 7000 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-08-13 23:13:54,513 basehttp 26176 7000 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 23:13:54,530 basehttp 26176 7000 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-08-13 23:14:05,460 basehttp 26176 7000 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 23:14:05,490 basehttp 26176 7000 "GET /admin/ HTTP/1.1" 200 11660
+INFO 2023-08-13 23:14:08,193 basehttp 26176 7000 "GET /admin/homework2/client/ HTTP/1.1" 200 23744
+INFO 2023-08-13 23:14:08,249 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:14:24,306 basehttp 26176 7000 "GET /admin/homework2/item/ HTTP/1.1" 200 24105
+INFO 2023-08-13 23:14:24,356 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:14:24,938 basehttp 26176 7000 "GET /admin/homework2/order/ HTTP/1.1" 200 18669
+INFO 2023-08-13 23:14:25,011 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:14:26,065 basehttp 26176 7000 "GET /admin/homework2/client/ HTTP/1.1" 200 23744
+INFO 2023-08-13 23:14:26,129 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:14:27,290 basehttp 26176 7000 "GET /admin/homework2/client/45/change/ HTTP/1.1" 200 12701
+INFO 2023-08-13 23:14:27,350 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:14:29,230 basehttp 26176 7000 "GET /admin/homework2/client/ HTTP/1.1" 200 23744
+INFO 2023-08-13 23:14:29,284 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:14:32,237 basehttp 26176 7000 "GET /admin/sem2_task1/article/ HTTP/1.1" 200 31623
+INFO 2023-08-13 23:14:32,299 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:14:33,116 basehttp 26176 7000 "GET /admin/sem2_task1/author/ HTTP/1.1" 200 16903
+INFO 2023-08-13 23:14:33,163 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:14:35,836 basehttp 26176 7000 "GET /admin/sem2_task1/article/ HTTP/1.1" 200 31623
+INFO 2023-08-13 23:14:35,889 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:14:37,220 basehttp 26176 7000 "GET /admin/homework2/client/ HTTP/1.1" 200 23744
+INFO 2023-08-13 23:14:37,275 basehttp 26176 7000 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:15:27,197 autoreload 26176 29628 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:15:27,990 autoreload 28736 20880 Watching for file changes with StatReloader
+INFO 2023-08-13 23:15:28,898 basehttp 28736 17320 "GET /admin/homework2/client/ HTTP/1.1" 200 24156
+INFO 2023-08-13 23:15:28,948 basehttp 28736 17320 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:15:35,678 basehttp 28736 17320 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-08-13 23:15:37,117 basehttp 28736 17320 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 23:15:37,130 basehttp 28736 17320 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-08-13 23:15:46,918 basehttp 28736 17320 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-08-13 23:15:46,945 basehttp 28736 17320 "GET /admin/ HTTP/1.1" 200 6257
+INFO 2023-08-13 23:15:54,517 basehttp 28736 17320 "GET /admin/homework2/client/ HTTP/1.1" 200 22358
+INFO 2023-08-13 23:15:54,574 basehttp 28736 17320 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:16:08,796 basehttp 28736 17320 "GET /admin/homework2/client/45/change/ HTTP/1.1" 200 10903
+INFO 2023-08-13 23:16:08,846 basehttp 28736 17320 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:16:10,841 basehttp 28736 17320 "GET /admin/homework2/client/ HTTP/1.1" 200 22358
+INFO 2023-08-13 23:16:10,905 basehttp 28736 17320 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:16:13,552 basehttp 28736 17320 "GET /admin/homework2/item/ HTTP/1.1" 200 22307
+INFO 2023-08-13 23:16:13,608 basehttp 28736 17320 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:17:36,146 autoreload 28736 20880 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:17:36,964 autoreload 28212 20872 Watching for file changes with StatReloader
+INFO 2023-08-13 23:17:37,649 basehttp 28212 23912 "GET /admin/homework2/item/ HTTP/1.1" 200 21065
+INFO 2023-08-13 23:17:37,697 basehttp 28212 23912 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:17:48,987 basehttp 28212 23912 "GET /admin/homework2/order/ HTTP/1.1" 200 16871
+INFO 2023-08-13 23:17:49,042 basehttp 28212 23912 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:18:56,300 autoreload 28212 20872 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:18:57,107 autoreload 9560 15204 Watching for file changes with StatReloader
+INFO 2023-08-13 23:19:21,025 autoreload 9560 15204 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:19:21,820 autoreload 14280 19884 Watching for file changes with StatReloader
+INFO 2023-08-13 23:19:22,155 basehttp 14280 21088 "GET /admin/homework2/order/ HTTP/1.1" 200 15549
+INFO 2023-08-13 23:19:22,228 basehttp 14280 21088 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:19:25,101 basehttp 14280 21088 "GET /admin/homework2/order/ HTTP/1.1" 200 15549
+INFO 2023-08-13 23:19:25,149 basehttp 14280 21088 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:19:35,751 autoreload 20560 15732 Watching for file changes with StatReloader
+INFO 2023-08-13 23:19:40,267 basehttp 20560 18516 "GET /admin/homework2/order/ HTTP/1.1" 200 15549
+INFO 2023-08-13 23:19:40,319 basehttp 20560 18516 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:19:40,936 basehttp 20560 18516 "GET /admin/homework2/order/ HTTP/1.1" 200 15549
+INFO 2023-08-13 23:19:40,983 basehttp 20560 18516 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:19:42,486 basehttp 20560 18516 "GET /admin/homework2/order/ HTTP/1.1" 200 15549
+INFO 2023-08-13 23:19:42,532 basehttp 20560 18516 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:19:57,626 basehttp 20560 18516 "GET /admin/homework2/item/ HTTP/1.1" 200 21065
+INFO 2023-08-13 23:19:57,674 basehttp 20560 18516 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:19:58,483 basehttp 20560 18516 "GET /admin/homework2/order/ HTTP/1.1" 200 15549
+INFO 2023-08-13 23:19:58,535 basehttp 20560 18516 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:20:03,004 basehttp 20560 18516 "GET /admin/homework2/order/31/change/ HTTP/1.1" 200 24909
+INFO 2023-08-13 23:20:03,056 basehttp 20560 18516 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:20:05,339 basehttp 20560 18516 "GET /admin/homework2/order/ HTTP/1.1" 200 15549
+INFO 2023-08-13 23:20:05,392 basehttp 20560 18516 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:20:20,402 autoreload 20560 15732 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:20:21,265 autoreload 14584 18984 Watching for file changes with StatReloader
+INFO 2023-08-13 23:20:37,886 autoreload 14584 18984 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:20:38,825 autoreload 5456 9716 Watching for file changes with StatReloader
+INFO 2023-08-13 23:20:39,070 basehttp 5456 20492 "GET /admin/homework2/order/ HTTP/1.1" 200 15549
+INFO 2023-08-13 23:20:39,136 basehttp 5456 20492 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:25:23,077 autoreload 5456 9716 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:25:23,887 autoreload 22604 10276 Watching for file changes with StatReloader
+INFO 2023-08-13 23:25:45,710 autoreload 22604 10276 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:25:46,568 autoreload 15280 22400 Watching for file changes with StatReloader
+INFO 2023-08-13 23:25:58,693 autoreload 15280 22400 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:25:59,458 autoreload 22568 8064 Watching for file changes with StatReloader
+INFO 2023-08-13 23:27:11,968 autoreload 22568 8064 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:27:12,776 autoreload 5760 29212 Watching for file changes with StatReloader
+INFO 2023-08-13 23:27:21,617 autoreload 5760 29212 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:27:22,363 autoreload 28608 12400 Watching for file changes with StatReloader
+INFO 2023-08-13 23:27:33,295 autoreload 28608 12400 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:27:34,003 autoreload 27744 8064 Watching for file changes with StatReloader
+INFO 2023-08-13 23:28:40,629 autoreload 27744 8064 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:28:41,436 autoreload 28740 15700 Watching for file changes with StatReloader
+INFO 2023-08-13 23:29:22,273 basehttp 28740 18268 "GET /admin/homework2/order/ HTTP/1.1" 200 13823
+INFO 2023-08-13 23:29:22,324 basehttp 28740 18268 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:29:38,283 basehttp 28740 18268 "GET /admin/homework2/item/ HTTP/1.1" 200 21065
+INFO 2023-08-13 23:29:38,335 basehttp 28740 18268 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:29:45,267 basehttp 28740 18268 "GET /admin/homework2/client/ HTTP/1.1" 200 22358
+INFO 2023-08-13 23:29:45,333 basehttp 28740 18268 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:30:06,405 autoreload 28740 15700 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:30:07,185 autoreload 26520 29044 Watching for file changes with StatReloader
+INFO 2023-08-13 23:30:07,477 basehttp 26520 27100 "GET /admin/homework2/item/ HTTP/1.1" 200 21065
+INFO 2023-08-13 23:30:07,545 basehttp 26520 27100 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:30:08,353 basehttp 26520 27100 "GET /admin/homework2/client/ HTTP/1.1" 200 23631
+INFO 2023-08-13 23:30:08,412 basehttp 26520 27100 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:30:14,337 basehttp 26520 27100 "GET /admin/homework2/client/?o=1 HTTP/1.1" 200 25029
+INFO 2023-08-13 23:30:14,407 basehttp 26520 27100 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:30:15,628 basehttp 26520 27100 "GET /admin/homework2/client/?o=-1 HTTP/1.1" 200 25074
+INFO 2023-08-13 23:30:15,685 basehttp 26520 27100 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:30:16,511 basehttp 26520 27100 "GET /admin/homework2/client/?o=1 HTTP/1.1" 200 25029
+INFO 2023-08-13 23:30:16,567 basehttp 26520 27100 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:30:18,933 basehttp 26520 27100 "GET /admin/homework2/client/?o= HTTP/1.1" 200 24681
+INFO 2023-08-13 23:30:18,993 basehttp 26520 27100 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:30:42,100 autoreload 26520 29044 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:30:42,896 autoreload 21000 21084 Watching for file changes with StatReloader
+INFO 2023-08-13 23:30:43,460 basehttp 21000 26548 "GET /admin/homework2/client/?o= HTTP/1.1" 200 24681
+INFO 2023-08-13 23:30:43,506 basehttp 21000 26548 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:30:44,430 basehttp 21000 26548 "GET /admin/homework2/item/ HTTP/1.1" 200 22448
+INFO 2023-08-13 23:30:44,481 basehttp 21000 26548 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:30:45,483 basehttp 21000 26548 "GET /admin/homework2/order/ HTTP/1.1" 200 14375
+INFO 2023-08-13 23:30:45,541 basehttp 21000 26548 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:30:47,878 basehttp 21000 26548 "GET /admin/homework2/item/ HTTP/1.1" 200 22448
+INFO 2023-08-13 23:30:47,947 basehttp 21000 26548 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:31:50,359 basehttp 21000 26548 "GET /admin/homework2/order/ HTTP/1.1" 200 14375
+INFO 2023-08-13 23:31:50,415 basehttp 21000 26548 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:31:52,077 basehttp 21000 26548 "GET /admin/homework2/item/ HTTP/1.1" 200 22448
+INFO 2023-08-13 23:31:52,133 basehttp 21000 26548 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:31:52,862 basehttp 21000 26548 "GET /admin/homework2/client/ HTTP/1.1" 200 23631
+INFO 2023-08-13 23:31:52,915 basehttp 21000 26548 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:34:10,269 autoreload 21000 21084 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:34:11,067 autoreload 13644 19240 Watching for file changes with StatReloader
+INFO 2023-08-13 23:34:13,219 basehttp 13644 25032 "GET /admin/homework2/client/ HTTP/1.1" 200 24421
+INFO 2023-08-13 23:34:13,272 basehttp 13644 25032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:34:15,014 basehttp 13644 25032 "GET /admin/homework2/item/ HTTP/1.1" 200 22754
+INFO 2023-08-13 23:34:15,076 basehttp 13644 25032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:34:15,924 basehttp 13644 25032 "GET /admin/homework2/order/ HTTP/1.1" 200 14679
+INFO 2023-08-13 23:34:15,975 basehttp 13644 25032 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:35:36,070 autoreload 13644 19240 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:35:36,876 autoreload 28728 19904 Watching for file changes with StatReloader
+INFO 2023-08-13 23:35:42,608 basehttp 28728 8960 "GET /admin/homework2/client/ HTTP/1.1" 200 23144
+INFO 2023-08-13 23:35:42,667 basehttp 28728 8960 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:37:31,564 autoreload 28728 19904 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:37:32,377 autoreload 7444 7432 Watching for file changes with StatReloader
+INFO 2023-08-13 23:37:38,493 basehttp 7444 5896 "GET /admin/homework2/order/ HTTP/1.1" 200 16441
+INFO 2023-08-13 23:37:38,548 basehttp 7444 5896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:37:41,739 basehttp 7444 5896 "GET /admin/homework2/order/?date_ordered__gte=2023-08-13+00%3A00%3A00%2B00%3A00&date_ordered__lt=2023-08-14+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 11419
+INFO 2023-08-13 23:37:41,792 basehttp 7444 5896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:37:42,775 basehttp 7444 5896 "GET /admin/homework2/order/? HTTP/1.1" 200 16441
+INFO 2023-08-13 23:37:42,826 basehttp 7444 5896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:37:44,300 basehttp 7444 5896 "GET /admin/homework2/order/?date_ordered__gte=2023-08-06+00%3A00%3A00%2B00%3A00&date_ordered__lt=2023-08-14+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 11419
+INFO 2023-08-13 23:37:44,354 basehttp 7444 5896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:37:45,741 basehttp 7444 5896 "GET /admin/homework2/order/?date_ordered__gte=2023-08-01+00%3A00%3A00%2B00%3A00&date_ordered__lt=2023-09-01+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 20221
+INFO 2023-08-13 23:37:45,798 basehttp 7444 5896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:37:47,139 basehttp 7444 5896 "GET /admin/homework2/order/?date_ordered__gte=2023-01-01+00%3A00%3A00%2B00%3A00&date_ordered__lt=2024-01-01+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 20725
+INFO 2023-08-13 23:37:47,195 basehttp 7444 5896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:37:48,618 basehttp 7444 5896 "GET /admin/homework2/order/?date_ordered__gte=2023-08-01+00%3A00%3A00%2B00%3A00&date_ordered__lt=2023-09-01+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 20221
+INFO 2023-08-13 23:37:48,673 basehttp 7444 5896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:37:50,046 basehttp 7444 5896 "GET /admin/homework2/order/? HTTP/1.1" 200 16441
+INFO 2023-08-13 23:37:50,097 basehttp 7444 5896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:38:30,117 autoreload 7444 7432 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:38:30,934 autoreload 4932 23304 Watching for file changes with StatReloader
+INFO 2023-08-13 23:38:31,837 basehttp 4932 920 "GET /admin/homework2/item/ HTTP/1.1" 200 25899
+INFO 2023-08-13 23:38:31,891 basehttp 4932 920 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:38:35,444 basehttp 4932 920 "GET /admin/homework2/item/?name=%D0%9A%D1%83%D1%80%D1%82%D0%BA%D0%B0 HTTP/1.1" 200 14917
+INFO 2023-08-13 23:38:35,504 basehttp 4932 920 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:38:42,029 basehttp 4932 920 "GET /admin/homework2/order/ HTTP/1.1" 200 16441
+INFO 2023-08-13 23:38:42,095 basehttp 4932 920 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:40:00,932 autoreload 4932 23304 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:40:01,705 autoreload 27216 28464 Watching for file changes with StatReloader
+INFO 2023-08-13 23:40:22,176 autoreload 27216 28464 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:40:22,903 autoreload 4180 14096 Watching for file changes with StatReloader
+INFO 2023-08-13 23:41:11,654 autoreload 4180 14096 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:41:12,462 autoreload 2212 28700 Watching for file changes with StatReloader
+INFO 2023-08-13 23:41:14,861 basehttp 2212 25064 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-13 23:41:14,911 basehttp 2212 25064 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:41:23,078 basehttp 2212 25064 "GET /admin/homework2/order/?q=21 HTTP/1.1" 200 12236
+INFO 2023-08-13 23:41:23,133 basehttp 2212 25064 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:41:25,833 basehttp 2212 25064 "GET /admin/homework2/order/? HTTP/1.1" 200 16909
+INFO 2023-08-13 23:41:25,898 basehttp 2212 25064 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:41:30,809 basehttp 2212 25064 "GET /admin/homework2/order/?q=30 HTTP/1.1" 200 12237
+INFO 2023-08-13 23:41:30,859 basehttp 2212 25064 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:41:33,112 basehttp 2212 25064 "GET /admin/homework2/order/? HTTP/1.1" 200 16909
+INFO 2023-08-13 23:41:33,165 basehttp 2212 25064 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:42:43,827 autoreload 2212 28700 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:42:44,687 autoreload 15608 17376 Watching for file changes with StatReloader
+INFO 2023-08-13 23:42:45,424 basehttp 15608 8196 "GET /admin/homework2/client/ HTTP/1.1" 200 23607
+INFO 2023-08-13 23:42:45,485 basehttp 15608 8196 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:42:50,453 basehttp 15608 8196 "GET /admin/homework2/client/?q=Alex HTTP/1.1" 200 10693
+INFO 2023-08-13 23:42:50,508 basehttp 15608 8196 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:42:52,825 basehttp 15608 8196 "GET /admin/homework2/client/? HTTP/1.1" 200 23607
+INFO 2023-08-13 23:42:52,893 basehttp 15608 8196 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:42:53,949 basehttp 15608 8196 "GET /admin/homework2/item/ HTTP/1.1" 200 26366
+INFO 2023-08-13 23:42:54,003 basehttp 15608 8196 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:42:59,700 basehttp 15608 8196 "GET /admin/homework2/item/?q=%D0%9A%D1%83%D1%80%D1%82%D0%BA%D0%B0 HTTP/1.1" 200 15746
+INFO 2023-08-13 23:42:59,754 basehttp 15608 8196 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:43:03,412 basehttp 15608 8196 "GET /admin/homework2/item/? HTTP/1.1" 200 26366
+INFO 2023-08-13 23:43:03,466 basehttp 15608 8196 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:45:38,293 autoreload 15608 17376 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:45:39,063 autoreload 29052 26288 Watching for file changes with StatReloader
+INFO 2023-08-13 23:46:08,795 autoreload 29052 26288 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:46:09,606 autoreload 23748 8256 Watching for file changes with StatReloader
+INFO 2023-08-13 23:47:31,011 autoreload 23748 8256 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:47:31,791 autoreload 8692 11148 Watching for file changes with StatReloader
+INFO 2023-08-13 23:47:40,032 autoreload 8692 11148 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-13 23:47:40,847 autoreload 22128 19520 Watching for file changes with StatReloader
+INFO 2023-08-13 23:48:11,653 basehttp 22128 18172 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-13 23:48:11,711 basehttp 22128 18172 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:48:12,547 basehttp 22128 18172 "GET /admin/homework2/item/ HTTP/1.1" 200 26459
+INFO 2023-08-13 23:48:12,598 basehttp 22128 18172 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:48:26,867 basehttp 22128 18172 "POST /admin/homework2/item/ HTTP/1.1" 302 0
+INFO 2023-08-13 23:48:26,911 basehttp 22128 18172 "GET /admin/homework2/item/ HTTP/1.1" 200 26459
+INFO 2023-08-13 23:48:26,971 basehttp 22128 18172 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:50:17,997 basehttp 22128 18172 "GET /admin/homework2/client/ HTTP/1.1" 200 23607
+INFO 2023-08-13 23:50:18,057 basehttp 22128 18172 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:50:27,047 basehttp 22128 18172 "GET /admin/homework2/item/ HTTP/1.1" 200 26459
+INFO 2023-08-13 23:50:27,101 basehttp 22128 18172 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-13 23:50:36,199 basehttp 22128 18172 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-13 23:50:36,250 basehttp 22128 18172 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:24:41,755 autoreload 22128 19520 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:24:42,529 autoreload 5552 21696 Watching for file changes with StatReloader
+INFO 2023-08-14 00:25:31,979 autoreload 5552 21696 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:25:32,754 autoreload 8692 15936 Watching for file changes with StatReloader
+INFO 2023-08-14 00:25:38,975 autoreload 8692 15936 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:25:39,691 autoreload 20248 28900 Watching for file changes with StatReloader
+INFO 2023-08-14 00:26:10,177 autoreload 20248 28900 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:26:10,983 autoreload 29620 1176 Watching for file changes with StatReloader
+INFO 2023-08-14 00:26:23,314 autoreload 29620 1176 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:26:24,120 autoreload 16548 28196 Watching for file changes with StatReloader
+INFO 2023-08-14 00:26:26,708 basehttp 16548 21484 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:26:26,755 basehttp 16548 21484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:26:28,993 basehttp 16548 21484 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:26:29,041 basehttp 16548 21484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:26:30,697 basehttp 16548 21484 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:26:30,743 basehttp 16548 21484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:26:31,560 basehttp 16548 21484 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:26:31,625 basehttp 16548 21484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:26:39,610 basehttp 16548 21484 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:26:39,655 basehttp 16548 21484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:26:41,052 basehttp 16548 21484 "GET /admin/homework2/item/ HTTP/1.1" 200 26459
+INFO 2023-08-14 00:26:41,101 basehttp 16548 21484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:26:42,493 basehttp 16548 21484 "GET /admin/homework2/client/ HTTP/1.1" 200 23607
+INFO 2023-08-14 00:26:42,547 basehttp 16548 21484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:26:43,377 basehttp 16548 21484 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:26:43,427 basehttp 16548 21484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-08-14 00:26:46,819 log 16548 21484 Internal Server Error: /admin/homework2/order/17/change/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_ordered' cannot be specified for Order model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'date_ordered' cannot be specified for Order model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class OrderAdmin.
+ERROR 2023-08-14 00:26:46,825 basehttp 16548 21484 "GET /admin/homework2/order/17/change/ HTTP/1.1" 500 142553
+INFO 2023-08-14 00:26:59,361 basehttp 16548 21484 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:27:32,296 basehttp 16548 21484 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:27:32,359 basehttp 16548 21484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:27:33,097 basehttp 16548 21484 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:27:33,146 basehttp 16548 21484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:27:34,380 basehttp 16548 21484 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:27:34,429 basehttp 16548 21484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:27:35,275 basehttp 16548 21484 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:27:35,334 basehttp 16548 21484 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:27:48,265 autoreload 16548 28196 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:27:49,076 autoreload 12408 27748 Watching for file changes with StatReloader
+INFO 2023-08-14 00:27:49,381 basehttp 12408 20592 "GET /admin/homework2/order/17/change/ HTTP/1.1" 200 24909
+INFO 2023-08-14 00:27:49,439 basehttp 12408 20592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:28:59,726 basehttp 12408 20592 "GET /admin/homework2/item/ HTTP/1.1" 200 26459
+INFO 2023-08-14 00:28:59,789 basehttp 12408 20592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:29:02,057 basehttp 12408 20592 "GET /admin/homework2/item/1/change/ HTTP/1.1" 200 11438
+INFO 2023-08-14 00:29:02,105 basehttp 12408 20592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:29:11,240 basehttp 12408 20592 "GET /admin/homework2/client/ HTTP/1.1" 200 23607
+INFO 2023-08-14 00:29:11,295 basehttp 12408 20592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:29:14,574 basehttp 12408 20592 "GET /admin/homework2/client/17/change/ HTTP/1.1" 200 10835
+INFO 2023-08-14 00:29:14,634 basehttp 12408 20592 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:30:54,775 autoreload 12408 27748 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:30:55,613 autoreload 29152 8260 Watching for file changes with StatReloader
+ERROR 2023-08-14 00:30:56,078 log 29152 20516 Internal Server Error: /admin/homework2/client/17/change/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'registration_date' cannot be specified for Client model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'registration_date' cannot be specified for Client model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+ERROR 2023-08-14 00:30:56,087 basehttp 29152 20516 "GET /admin/homework2/client/17/change/ HTTP/1.1" 500 142764
+INFO 2023-08-14 00:31:22,952 autoreload 29152 8260 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:31:23,752 autoreload 29584 21148 Watching for file changes with StatReloader
+ERROR 2023-08-14 00:31:24,392 log 29584 28704 Internal Server Error: /admin/homework2/client/17/change/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (client_name) specified for Client
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (client_name) specified for Client. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+ERROR 2023-08-14 00:31:24,400 basehttp 29584 28704 "GET /admin/homework2/client/17/change/ HTTP/1.1" 500 135937
+ERROR 2023-08-14 00:31:25,293 log 29584 28704 Internal Server Error: /admin/homework2/client/17/change/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (client_name) specified for Client
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (client_name) specified for Client. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+ERROR 2023-08-14 00:31:25,298 basehttp 29584 28704 "GET /admin/homework2/client/17/change/ HTTP/1.1" 500 135937
+INFO 2023-08-14 00:32:08,092 autoreload 29584 21148 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:32:08,919 autoreload 3916 1904 Watching for file changes with StatReloader
+INFO 2023-08-14 00:32:09,871 basehttp 3916 29620 "GET /admin/homework2/client/17/change/ HTTP/1.1" 200 10835
+INFO 2023-08-14 00:32:09,923 basehttp 3916 29620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:32:30,852 autoreload 3916 1904 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:32:31,603 autoreload 16968 29204 Watching for file changes with StatReloader
+ERROR 2023-08-14 00:32:32,186 log 16968 17828 Internal Server Error: /admin/homework2/client/17/change/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'registration_date' cannot be specified for Client model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'registration_date' cannot be specified for Client model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+ERROR 2023-08-14 00:32:32,193 basehttp 16968 17828 "GET /admin/homework2/client/17/change/ HTTP/1.1" 500 142678
+INFO 2023-08-14 00:32:49,417 autoreload 16968 29204 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:32:50,255 autoreload 14244 24008 Watching for file changes with StatReloader
+INFO 2023-08-14 00:32:50,623 basehttp 14244 12720 "GET /admin/homework2/client/17/change/ HTTP/1.1" 200 10835
+INFO 2023-08-14 00:32:50,684 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:32:52,946 basehttp 14244 12720 "GET /admin/homework2/client/ HTTP/1.1" 200 23164
+INFO 2023-08-14 00:32:53,013 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:32:55,621 basehttp 14244 12720 "GET /admin/homework2/item/ HTTP/1.1" 200 26459
+INFO 2023-08-14 00:32:55,673 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:32:58,328 basehttp 14244 12720 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:32:58,383 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:33:01,352 basehttp 14244 12720 "GET /admin/homework2/item/ HTTP/1.1" 200 26459
+INFO 2023-08-14 00:33:01,417 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:33:04,712 basehttp 14244 12720 "GET /admin/homework2/item/1/change/ HTTP/1.1" 200 11438
+INFO 2023-08-14 00:33:04,767 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:33:07,278 basehttp 14244 12720 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:33:07,327 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:33:08,667 basehttp 14244 12720 "GET /admin/homework2/order/17/change/ HTTP/1.1" 200 24909
+INFO 2023-08-14 00:33:08,738 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:33:14,547 basehttp 14244 12720 "GET /admin/homework2/client/ HTTP/1.1" 200 23164
+INFO 2023-08-14 00:33:14,602 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:33:16,069 basehttp 14244 12720 "GET /admin/homework2/client/17/change/ HTTP/1.1" 200 10835
+INFO 2023-08-14 00:33:16,118 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:33:19,115 basehttp 14244 12720 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:33:19,182 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:33:47,212 basehttp 14244 12720 "GET /admin/homework2/order/17/change/ HTTP/1.1" 200 24909
+INFO 2023-08-14 00:33:47,273 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:33:52,038 basehttp 14244 12720 "GET /admin/homework2/item/ HTTP/1.1" 200 26459
+INFO 2023-08-14 00:33:52,092 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:33:54,011 basehttp 14244 12720 "GET /admin/homework2/client/ HTTP/1.1" 200 23164
+INFO 2023-08-14 00:33:54,062 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:34:04,387 basehttp 14244 12720 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:34:04,437 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:34:05,844 basehttp 14244 12720 "GET /admin/homework2/order/17/change/ HTTP/1.1" 200 24909
+INFO 2023-08-14 00:34:05,896 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:34:11,286 basehttp 14244 12720 "GET /admin/homework2/client/ HTTP/1.1" 200 23164
+INFO 2023-08-14 00:34:11,344 basehttp 14244 12720 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:35:37,745 autoreload 14244 24008 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:35:38,701 autoreload 25436 20892 Watching for file changes with StatReloader
+INFO 2023-08-14 00:35:41,354 basehttp 25436 24652 "GET /admin/homework2/client/ HTTP/1.1" 200 23164
+INFO 2023-08-14 00:35:41,408 basehttp 25436 24652 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:35:43,023 basehttp 25436 24652 "GET /admin/homework2/client/17/change/ HTTP/1.1" 200 11413
+INFO 2023-08-14 00:35:43,071 basehttp 25436 24652 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:40:22,897 autoreload 25436 20892 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:40:23,736 autoreload 6876 12528 Watching for file changes with StatReloader
+INFO 2023-08-14 00:40:25,769 basehttp 6876 14968 "GET /admin/homework2/item/ HTTP/1.1" 200 26459
+INFO 2023-08-14 00:40:25,825 basehttp 6876 14968 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:40:28,414 basehttp 6876 14968 "GET /admin/homework2/item/1/change/ HTTP/1.1" 200 11998
+INFO 2023-08-14 00:40:28,472 basehttp 6876 14968 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:40:49,270 autoreload 6876 12528 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:40:50,237 autoreload 22780 25840 Watching for file changes with StatReloader
+INFO 2023-08-14 00:40:50,661 basehttp 22780 17184 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:40:50,736 basehttp 22780 17184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:40:52,271 basehttp 22780 17184 "GET /admin/homework2/order/17/change/ HTTP/1.1" 200 25483
+INFO 2023-08-14 00:40:52,325 basehttp 22780 17184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:43:11,983 basehttp 22780 17184 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:43:12,035 basehttp 22780 17184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:43:14,245 basehttp 22780 17184 "GET /admin/homework2/order/17/change/ HTTP/1.1" 200 25483
+INFO 2023-08-14 00:43:14,303 basehttp 22780 17184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:43:39,104 basehttp 22780 17184 "GET /admin/homework2/item/ HTTP/1.1" 200 26459
+INFO 2023-08-14 00:43:39,156 basehttp 22780 17184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:43:47,115 basehttp 22780 17184 "GET /admin/homework2/client/ HTTP/1.1" 200 23164
+INFO 2023-08-14 00:43:47,167 basehttp 22780 17184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:45:11,248 basehttp 22780 17184 "GET /admin/homework2/order/ HTTP/1.1" 200 16909
+INFO 2023-08-14 00:45:11,317 basehttp 22780 17184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:45:12,358 basehttp 22780 17184 "GET /admin/homework2/item/ HTTP/1.1" 200 26459
+INFO 2023-08-14 00:45:12,413 basehttp 22780 17184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:45:13,773 basehttp 22780 17184 "GET /admin/homework2/item/1/change/ HTTP/1.1" 200 11998
+INFO 2023-08-14 00:45:13,822 basehttp 22780 17184 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:47:31,101 autoreload 22780 25840 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:47:31,986 autoreload 12076 23064 Watching for file changes with StatReloader
+INFO 2023-08-14 00:49:58,075 autoreload 12076 23064 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:49:58,781 autoreload 29124 17284 Watching for file changes with StatReloader
+INFO 2023-08-14 00:51:51,233 autoreload 29124 17284 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:51:52,042 autoreload 12408 17296 Watching for file changes with StatReloader
+ERROR 2023-08-14 00:51:57,689 log 12408 29660 Internal Server Error: /admin/homework2/item/1/change/
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added, rating) specified for Item
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\venv\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added, rating) specified for Item. Check fields/fieldsets/exclude attributes of class ItemAdmin.
+ERROR 2023-08-14 00:51:57,696 basehttp 12408 29660 "GET /admin/homework2/item/1/change/ HTTP/1.1" 500 136976
+INFO 2023-08-14 00:52:34,634 autoreload 12408 17296 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:52:35,460 autoreload 2808 13064 Watching for file changes with StatReloader
+INFO 2023-08-14 00:52:35,769 basehttp 2808 29348 "GET /admin/homework2/item/1/change/ HTTP/1.1" 200 11960
+INFO 2023-08-14 00:52:35,829 basehttp 2808 29348 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:52:59,696 autoreload 2808 13064 C:\Users\kino_\OneDrive\Документы\учеба\Django\Sem1\sem1\homework2\admin.py changed, reloading.
+INFO 2023-08-14 00:53:00,450 autoreload 25436 5712 Watching for file changes with StatReloader
+INFO 2023-08-14 00:53:01,761 basehttp 25436 16852 "GET /admin/homework2/item/1/change/ HTTP/1.1" 200 11942
+INFO 2023-08-14 00:53:01,814 basehttp 25436 16852 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-08-14 00:53:56,812 basehttp 25436 16852 "POST /admin/logout/ HTTP/1.1" 200 3709
